@@ -1,60 +1,60 @@
 \select@language {brazil}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Apresenta\IeC {\c c}\IeC {\~a}o}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Justificativas}{1}{section.1.2}
-\contentsline {section}{\numberline {1.3}Objetivos}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Contribui\IeC {\c c}\IeC {\~o}es obtidas}{3}{section.1.4}
-\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{3}{section.1.5}
-\contentsline {chapter}{\numberline {2}Revis\IeC {\~a}o da Literatura}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Artigos cient\IeC {\'\i }ficos}{4}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}M\IeC {\'e}todo de pesquisa}{4}{subsection.2.1.1}
-\contentsline {subsubsection}{Defini\IeC {\c c}\IeC {\~a}o da pergunta}{5}{section*.9}
-\contentsline {subsubsection}{Bases de dados relevantes}{6}{section*.10}
-\contentsline {subsubsection}{Palavras-chave}{6}{section*.12}
-\contentsline {subsubsection}{Crit\IeC {\'e}rios de exclus\IeC {\~a}o}{7}{section*.14}
-\contentsline {subsection}{\numberline {2.1.2}Artigos selecionados}{8}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Relatos de experi\IeC {\^e}ncia}{11}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}M\IeC {\'e}todo de pesquisa}{12}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Relatos selecionados}{12}{subsection.2.2.2}
-\contentsline {chapter}{\numberline {3}An\IeC {\'a}lise das Li\IeC {\c c}\IeC {\~o}es Aprendidas Coletadas}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Mapeamento e categoriza\IeC {\c c}\IeC {\~a}o}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}An\IeC {\'a}lises das li\IeC {\c c}\IeC {\~o}es aprendidas}{18}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Experi\IeC {\^e}ncia, treinamento e aprendizado}{18}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Planejamento e gerenciamento de backlog}{20}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Apoio gerencial e dos clientes}{21}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Customiza\IeC {\c c}\IeC {\~a}o e adaptabilidade}{22}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Confian\IeC {\c c}a do time}{24}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Engajamento, comprometimento, disciplina e trabalho em equipe}{25}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Aspectos t\IeC {\'e}cnicos e tecnol\IeC {\'o}gicos}{27}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Compartilhamento de conhecimento}{28}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}Velocidade de entrega e produtividade}{30}{subsection.3.2.9}
-\contentsline {subsection}{\numberline {3.2.10}Qualidade do produto final}{31}{subsection.3.2.10}
-\contentsline {subsection}{\numberline {3.2.11}Tamanho da organiza\IeC {\c c}\IeC {\~a}o}{32}{subsection.3.2.11}
-\contentsline {subsection}{\numberline {3.2.12}Quebra de paradigma}{33}{subsection.3.2.12}
-\contentsline {subsection}{\numberline {3.2.13}Comunica\IeC {\c c}\IeC {\~a}o remota}{35}{subsection.3.2.13}
-\contentsline {subsection}{\numberline {3.2.14}Cultura organizacional}{36}{subsection.3.2.14}
-\contentsline {chapter}{\numberline {4}Valida\IeC {\c c}\IeC {\~a}o das Categorias de Li\IeC {\c c}\IeC {\~o}es Aprendidas}{38}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'e}todo de valida\IeC {\c c}\IeC {\~a}o}{38}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Defini\IeC {\c c}\IeC {\~a}o do objetivo}{38}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Elabora\IeC {\c c}\IeC {\~a}o do question\IeC {\'a}rio}{39}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Defini\IeC {\c c}\IeC {\~a}o da popula\IeC {\c c}\IeC {\~a}o pesquisada}{39}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Aplica\IeC {\c c}\IeC {\~a}o do question\IeC {\'a}rio}{42}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}An\IeC {\'a}lise dos resultados}{43}{subsection.4.1.5}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a experi\IeC {\^e}ncia, treinamento e aprendizado dos envolvidos?}{43}{section*.51}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o planejamento e gerenciamento do backlog do projeto?}{43}{section*.53}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o apoio gerencial e dos clientes?}{43}{section*.55}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a capacidade de customiza\IeC {\c c}\IeC {\~a}o e adaptabilidade do projeto?}{44}{section*.57}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o n\IeC {\'\i }vel de confian\IeC {\c c}a do time?}{44}{section*.59}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o n\IeC {\'\i }vel de engajamento, comprometimento, disciplina e trabalho em equipe dos integrantes do projeto?}{44}{section*.61}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para os aspectos t\IeC {\'e}cnicos e tecnol\IeC {\'o}gicos utilizados?}{45}{section*.63}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o h\IeC {\'a}bito do compartilhamento de conhecimento dentro e fora do projeto?}{45}{section*.65}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a velocidade de entrega e a produtividade da equipe?}{45}{section*.67}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a busca pela melhoria na qualidade do produto final?}{46}{section*.69}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o tamanho da organiza\IeC {\c c}\IeC {\~a}o que est\IeC {\'a} tentando adotar \IeC {\'A}gil?}{46}{section*.71}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para os esfor\IeC {\c c}os com a quebra de paradigma necess\IeC {\'a}ria para a implementa\IeC {\c c}\IeC {\~a}o de \IeC {\'A}gil?}{46}{section*.73}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o esfor\IeC {\c c}o para se lidar com comunica\IeC {\c c}\IeC {\~a}o remota?}{47}{section*.75}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o alinhamento da cultura da organiza\IeC {\c c}\IeC {\~a}o com os Princ\IeC {\'\i }pios \IeC {\'A}geis?}{47}{section*.77}
-\contentsline {subsubsection}{Se voc\IeC {\^e} tivesse que selecionar apenas 5 das categorias relacionadas anteriormente, quais voc\IeC {\^e} ressaltaria como as mais cr\IeC {\'\i }ticas para serem consideradas por uma organiza\IeC {\c c}\IeC {\~a}o na ado\IeC {\c c}\IeC {\~a}o da abordagem \IeC {\'a}gil?}{48}{section*.79}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{49}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclus\IeC {\~a}o da pesquisa}{49}{section.5.1}
-\contentsline {section}{\numberline {5.2}Trabalhos futuros}{50}{section.5.2}
+\contentsline {section}{\numberline {1.2}Justificativas}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Objetivos}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}Contribui\IeC {\c c}\IeC {\~o}es obtidas}{6}{section.1.4}
+\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{7}{section.1.5}
+\contentsline {chapter}{\numberline {2}Revis\IeC {\~a}o da Literatura}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Artigos cient\IeC {\'\i }ficos}{8}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}M\IeC {\'e}todo de pesquisa}{8}{subsection.2.1.1}
+\contentsline {subsubsection}{Defini\IeC {\c c}\IeC {\~a}o da pergunta}{9}{section*.11}
+\contentsline {subsubsection}{Bases de dados relevantes}{10}{section*.12}
+\contentsline {subsubsection}{Palavras-chave}{10}{section*.14}
+\contentsline {subsubsection}{Crit\IeC {\'e}rios de exclus\IeC {\~a}o}{11}{section*.16}
+\contentsline {subsection}{\numberline {2.1.2}Artigos selecionados}{12}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Relatos de experi\IeC {\^e}ncia}{15}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}M\IeC {\'e}todo de pesquisa}{16}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Relatos selecionados}{16}{subsection.2.2.2}
+\contentsline {chapter}{\numberline {3}An\IeC {\'a}lise das Li\IeC {\c c}\IeC {\~o}es Aprendidas Coletadas}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Mapeamento e categoriza\IeC {\c c}\IeC {\~a}o}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}An\IeC {\'a}lises das li\IeC {\c c}\IeC {\~o}es aprendidas}{22}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Experi\IeC {\^e}ncia, treinamento e aprendizado}{22}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Planejamento e gerenciamento de backlog}{24}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Apoio gerencial e dos clientes}{25}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Customiza\IeC {\c c}\IeC {\~a}o e adaptabilidade}{26}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Confian\IeC {\c c}a do time}{28}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Engajamento, comprometimento, disciplina e trabalho em equipe}{29}{subsection.3.2.6}
+\contentsline {subsection}{\numberline {3.2.7}Aspectos t\IeC {\'e}cnicos e tecnol\IeC {\'o}gicos}{31}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {3.2.8}Compartilhamento de conhecimento}{32}{subsection.3.2.8}
+\contentsline {subsection}{\numberline {3.2.9}Velocidade de entrega e produtividade}{34}{subsection.3.2.9}
+\contentsline {subsection}{\numberline {3.2.10}Qualidade do produto final}{35}{subsection.3.2.10}
+\contentsline {subsection}{\numberline {3.2.11}Tamanho da organiza\IeC {\c c}\IeC {\~a}o}{36}{subsection.3.2.11}
+\contentsline {subsection}{\numberline {3.2.12}Quebra de paradigma}{37}{subsection.3.2.12}
+\contentsline {subsection}{\numberline {3.2.13}Comunica\IeC {\c c}\IeC {\~a}o remota}{39}{subsection.3.2.13}
+\contentsline {subsection}{\numberline {3.2.14}Cultura organizacional}{40}{subsection.3.2.14}
+\contentsline {chapter}{\numberline {4}Valida\IeC {\c c}\IeC {\~a}o das Categorias de Li\IeC {\c c}\IeC {\~o}es Aprendidas}{42}{chapter.4}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}todo de valida\IeC {\c c}\IeC {\~a}o}{42}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Defini\IeC {\c c}\IeC {\~a}o do objetivo}{42}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Elabora\IeC {\c c}\IeC {\~a}o do question\IeC {\'a}rio}{43}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Defini\IeC {\c c}\IeC {\~a}o da popula\IeC {\c c}\IeC {\~a}o pesquisada}{43}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Aplica\IeC {\c c}\IeC {\~a}o do question\IeC {\'a}rio}{46}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}An\IeC {\'a}lise dos resultados}{47}{subsection.4.1.5}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a experi\IeC {\^e}ncia, treinamento e aprendizado dos envolvidos?}{47}{section*.53}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o planejamento e gerenciamento do backlog do projeto?}{47}{section*.55}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o apoio gerencial e dos clientes?}{47}{section*.57}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a capacidade de customiza\IeC {\c c}\IeC {\~a}o e adaptabilidade do projeto?}{48}{section*.59}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o n\IeC {\'\i }vel de confian\IeC {\c c}a do time?}{48}{section*.61}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o n\IeC {\'\i }vel de engajamento, comprometimento, disciplina e trabalho em equipe dos integrantes do projeto?}{48}{section*.63}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para os aspectos t\IeC {\'e}cnicos e tecnol\IeC {\'o}gicos utilizados?}{49}{section*.65}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o h\IeC {\'a}bito do compartilhamento de conhecimento dentro e fora do projeto?}{49}{section*.67}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a velocidade de entrega e a produtividade da equipe?}{49}{section*.69}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a busca pela melhoria na qualidade do produto final?}{50}{section*.71}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o tamanho da organiza\IeC {\c c}\IeC {\~a}o que est\IeC {\'a} tentando adotar \IeC {\'A}gil?}{50}{section*.73}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para os esfor\IeC {\c c}os com a quebra de paradigma necess\IeC {\'a}ria para a implementa\IeC {\c c}\IeC {\~a}o de \IeC {\'A}gil?}{50}{section*.75}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o esfor\IeC {\c c}o para se lidar com comunica\IeC {\c c}\IeC {\~a}o remota?}{51}{section*.77}
+\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o alinhamento da cultura da organiza\IeC {\c c}\IeC {\~a}o com os Princ\IeC {\'\i }pios \IeC {\'A}geis?}{51}{section*.79}
+\contentsline {subsubsection}{Se voc\IeC {\^e} tivesse que selecionar apenas 5 das categorias relacionadas anteriormente, quais voc\IeC {\^e} ressaltaria como as mais cr\IeC {\'\i }ticas para serem consideradas por uma organiza\IeC {\c c}\IeC {\~a}o na ado\IeC {\c c}\IeC {\~a}o da abordagem \IeC {\'a}gil?}{52}{section*.81}
+\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclus\IeC {\~a}o da pesquisa}{53}{section.5.1}
+\contentsline {section}{\numberline {5.2}Trabalhos futuros}{54}{section.5.2}

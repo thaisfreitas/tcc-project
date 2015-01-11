@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{Wissink206}
+T.~Wissink;~C. Amaro.
+\newblock Strategies for agile software testing automation: An industrial
+  experience.
+\newblock In {\em Software Maintenance, 2006. ICSM '06. 22nd IEEE International
+  Conference on}, pages 265--266, September 2006.
+
 \bibitem{Arikpo2011}
 Adenike~O. Arikpo, Iwara I.;~Osofisan.
 \newblock Software tools and processes: A key factor in successful agile
@@ -45,6 +52,27 @@ Srinath Chandrasekharan.
 \newblock Disponível em:
   \url{http://pt.slideshare.net/Srinath_cs/agile-goa-final?from_search=4}.
   Acessado em: 14/02/2014.
+
+\bibitem{Collins2012}
+E.~Collins and Lucena V.~F. Dias-Neto.
+\newblock Strategies for agile software testing automation: An industrial
+  experience.
+\newblock In {\em Computer Software and Applications Conference Workshops
+  (COMPSACW), 2012 IEEE 36th Annual}, pages 440--445, July 2012.
+
+\bibitem{James2012}
+James Crisp.
+\newblock Automated testing and the test pyramid, May 2011.
+\newblock Disponível em:
+  \url{http://jamescrisp.org/2011/05/30/automated-testing-and-the-test-pyramid/}.
+  Acessado em: 30/11/2014.
+
+\bibitem{James2011}
+James Crisp.
+\newblock Yet another software testing pyramid, June 2011.
+\newblock Disponível em:
+  \url{http://watirmelon.com/2011/06/10/yet-another-software-testing-pyramid/}.
+  Acessado em: 30/11/2014.
 
 \bibitem{Maciel2013}
 Teresa~Maciel e~Alessandra~Mendes.
@@ -128,13 +156,6 @@ Alexis Hui.
   \url{https://submissions.agilealliance.org/system/attachments/attachments/000/000/056/original/Agile_2013_-_Lean_Change_for_Enabling_Agile_Transformations.pdf?1385085655}.
   Acessado em: 14/02/2014.
 
-\bibitem{Kettunen2010}
-Vesa Kettunen, Jussi Kasurinen, Ossi Taipale, and Kari Smolander.
-\newblock A study on agility and testing processes in software organizations.
-\newblock In {\em Proceedings of the 19th International Symposium on Software
-  Testing and Analysis}, ISSTA '10, pages 231--240, New York, NY, USA, 2010.
-  ACM.
-
 \bibitem{Eunha2012}
 Eunha Kim and Seokmoon Ryoo.
 \newblock Agile adoption story from nhn.
@@ -161,13 +182,6 @@ Kirsi Korhonen.
   study in a distributed context.
 \newblock {\em Software Quality Journal}, 21(4):599--624, 2013.
 
-\bibitem{Krasteva2008}
-Iva Krasteva and Sylvia Ilieva.
-\newblock Adopting an agile methodology: Why it did not work.
-\newblock In {\em Proceedings of the 2008 International Workshop on
-  Scrutinizing Agile Practices or Shoot-out at the Agile Corral}, APOS '08,
-  pages 33--36, New York, NY, USA, 2008. ACM.
-
 \bibitem{Ericsson2013}
 L.~Lagerberg, T.~Skude, P.~Emanuelsson, K.~Sandahl, and D.~Stahl.
 \newblock The impact of agile principles and practices on large-scale software
@@ -179,6 +193,25 @@ L.~Lagerberg, T.~Skude, P.~Emanuelsson, K.~Sandahl, and D.~Stahl.
 Mary~Ann Lapham.
 \newblock Dod agile adoption: Necessary considerations, concerns, and changes.
 \newblock {\em CrossTalk Magazine}, pages 31--35, Jan 2012.
+
+\bibitem{Budnik2010}
+BUDNIK C. J.; CHAN W. K.; KAPFHAMMER~G. M.
+\newblock Bridging the gap between the theory and practice of software test
+  automation.
+\newblock In {\em Software Engineering, 2010 ACM/IEEE 32nd International
+  Conference on (Volume:2 )}, pages 445--446, May 2010.
+
+\bibitem{Maldonado1988}
+J.~C. Maldonado and A.~Vincenzi.
+\newblock Aspectos teóricos e empíricos de testes de cobertura de software.
+\newblock Technical report, Instituto de Ciencias Matemáticas e de
+  Computação - ICMC-USP, June 1998.
+
+\bibitem{Wanessa2012}
+Wanessa Mariana and Angelica Toffano.
+\newblock Ferramentas free para teste de software: um estudo comparativo.
+\newblock Technical report, Centro Universitario de Brasilia-Uniceub, August
+  2012.
 
 \bibitem{Microsoft2013}
 B.~Murphy, C.~Bird, T.~Zimmermann, L.~Williams, N.~Nagappan, and A.~Begel.
@@ -193,6 +226,19 @@ Claudia O.~Melo, Viviane Santos, Eduardo Katayama, Hugo Corbucci, Rafael
 \newblock The evolution of agile software development in brazil.
 \newblock {\em Journal of the Brazilian Computer Society}, 19(4):523--552,
   2013.
+
+\bibitem{inportanciaTestesAutomatizados}
+Fabio~Kon Paulo~Cheque.
+\newblock A importancia dos testes automatizados.
+\newblock {\em Engenharia de Software Magazine}, 72:54–57, 2008.
+
+\bibitem{Bret1999}
+Bret Pettichord.
+\newblock Seven steps to test automation success.
+\newblock STAR West, San Jose, November 1999.
+\newblock Disponível em:
+  \url{http://https://www.prismnet.com/~wazmo/papers/seven_steps}. Acessado em:
+  30/11/2014.
 
 \bibitem{Cisco2011}
 K.~Power.
@@ -230,10 +276,13 @@ Stéfano~Dos Santos.
   \url{http://www.slideshare.net/stefanohs/desafios-do-desenvolvimento-gil-para-o-governo}.
   Acessado em: 14/02/2014.
 
-\bibitem{Shore2007}
-James Shore and Shane Warden.
-\newblock {\em The Art of Agile Development}.
-\newblock O'Reilly, first edition, 2007.
+\bibitem{WatirMelon2012}
+Alister Scott.
+\newblock Introducing the software testing ice-cream cone (anti-pattern),
+  January 2012.
+\newblock Disponível em:
+  \url{http://watirmelon.com/2012/01/31/introducing-the-software-testing-ice-cream-cone/}.
+  Acessado em: 25/11/2014.
 
 \bibitem{Ahmed2008}
 Ahmed Sidky.
@@ -250,5 +299,11 @@ Rodrigo Vieira.
 \newblock Disponível em:
   \url{http://www.slideshare.net/rcvieira/agilidade-das-trincheiras-do-tribunal-superior-do-trabalho}.
   Acessado em: 14/02/2014.
+
+\bibitem{XiangFeng2011}
+Weinan~Shanxi XiangFeng~Meng.
+\newblock Analysis of software automation test protocol.
+\newblock In {\em International Conference on Electronic and Mechanical
+  Engineering and Information Technology}, pages 4138 -- 4141, August 2011.
 
 \end{thebibliography}

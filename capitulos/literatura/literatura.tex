@@ -1,30 +1,46 @@
-\chapter{Revisão da Literatura}
+\chapter{Referêncial Teórico}
 
-É apresentado nesse capítulo o conjunto de trabalhos relevantes para o tema dessa pesquisa. Foi realizada uma revisão sistemática para selecionar artigos científicos e uma pesquisa exploratória para coleta de relatos de experiência. Os detalhes estão descritos nas próximas seções.
 
-\section{Artigos científicos}
+É apresentado nesse capítulo um conjunto de definições relevantes para o tema dessa proposta de trabalho. Foi realizada uma pesquisa sistemática para selecionar os principais tópicos apoiam o entendimento deste trabalho. Os detalhes estão descritos nas próximas seções.
 
-\subsection{Método de pesquisa}
+\section{Teste de Software}
 
-O processo de pesquisa utilizado nesse projeto foi baseado no método chamado revisão sistemática. Segundo Barbara Kitchenham \cite{Barbara04}, uma revisão sistemática da literatura consiste em identificar, avaliar e interpretar todas pesquisas disponíveis relevantes a uma determinada questão, tópico ou área de interesse. Esse tipo de pesquisa requer a definição de alguns pontos:
+Teste de software é o processo que realiza a avaliação do sistema ou de seus componentes com o objetivo de desvendar o comportamento para garantir que os seus requisitos estão de acordo com o esperado ou não. Em outras palavras teste é execução do sistema, a fim de identificar eventuais lacunas, erros ou requisitos que não foram implementados de acordo com as necessidades requeridas \cite{tutorialsPoint}. Segundo \cite{ansiieee1059}, Teste pode ser definido como o processo de análise do software para detectar as diferenças entre condições existentes e necessárias e avaliar as características do software.
 
-\begin{itemize}
-	\item A(s) questão(ões) a ser(em) respondida(s) ao final da pesquisa
-	\item A estratégia utilizada (fontes consultadas, termos buscados, etc.)
-	\item Critérios de seleção e exclusão de material
-\end{itemize}
+Um bom teste pode ser aquele que tem alta probabilidade de encontrar erros que ainda não foram expostos e um teste bem sucedido é aquele que revela um erro ainda não-descoberto. O teste pode ser manual, automatizado, ou ainda a combinação de ambos \cite{Pressman2002}. A redução de custo, tempo e retrabalho são proporcionais ao quão cedo o processo de testes for iniciado \cite{tutorialsPoint}.
 
-A necessidade da adoção de uma revisão sistemática decorre da exigência de se sumarizar todo um conjunto de informações existentes no que tange à adoção de metodologias ágeis por parte de empresas de desenvolvimento de software. A partir desse estudo, foi criado um arcabouço para a elaboração dos questionários que foram utilizados nesse projeto. A Figura \ref{fig:metodologia} mostra a visão metodológica adotada para encontrar trabalhos acadêmicos que possuem tais informações.
+\section{Tipos de Teste de software}
 
-\begin{figure}[H]
-	\centering
-	\captionsetup{justification=centering,margin=2cm}
-	\includegraphics[scale=0.35]{capitulos/literatura/metodologia.eps}
-	\caption{Diagrama que ilustra a metodologia de pesquisa utilizada para encontrar artigos científicos sobre adoção ágil}
-	\label{fig:metodologia}
-\end{figure}
+Testes de software podem ser divididos em duas categorias, testes manuais e automatizados.
 
-Como dito inicialmente, o método utilizado foi baseado no proposto por Bárbara Kitchenham \cite{Barbara04}. A necessidade dessa adaptação se deu por um conjunto de restrições de tempo, nível de detalhe necessário e contingente disponível.
+\subsection{Testes Manuais}
+
+		Este tipo de teste é feito pela execução manual do software, ou seja, sem o uso de qualquer ferramenta automatizada ou qualquer script. O testador assume o papel do usuário final para realizar os testes e identificar qualquer comportamento que não seja esperado ou revelar defeitos. Costumam usar planos de teste, casos de teste e/ou cenários para garantir a integridade dos testes. Também pode ser incluso dentro deste tipo os testes exploratórios, no qual o testador irá explorar o software com o intuito de encontrar erros\cite{tutorialsPoint}.
+		
+\subsection{Testes Automatizados}
+
+Testes automatizados podem ser definidos como automação de atividades de teste de software, incluindo o desenvolvimento e execução de scripts de testes, verificação de requisitos, como também a utilização de ferramentas de teste automatizadas \cite{Dustin1999}.
+ 
+Entre as razões para o uso da automação dos testes de software podemos citar, por exemplo, executar testes manuais é mais demorado, uso da automação de testes aumenta a  eficiência processo, em um fatia particular temos os testes de regressão, onde os casos de testes são executados de forma iterativa, depois de alterações no software \cite{Dustin1999}.
+		
+\section{Níveis de testes de Software}
+
+Em \cite{Pressman2002} aponta que a realização de testes apenas quando o sistema está construído é uma abordagem ineficaz. Segundo o autor, a estratégia de testes de software de possuir uma abordagem incremental, começando com os testes de unidades, seguindo com os testes de integração, culminando com os testes do sistema final e ainda acoplando testes que se enquadrem em testes de aceitação.
+
+\subsection{Testes Funcionais}
+
+Este tipo de teste é baseado nas especificações do software que será testado, a aplicação será testada através do fornecimento de entradas e em seguida, os resultados serão examinados para garantir a conformidade com os requisitos de tal funcionalidade \cite{tutorialsPoint}. Basicamente testar se os componentes e o sistema estão feitos, uma atividade ou uma função especifica do código está coerente com o esperado. Neste nível de teste perguntas como "O usuário poderá fazer isso?" ou "Esta função em particular funciona?" podem ser validadas tipicamente através de especificações de requisitos ou funcional \cite{Leung1990}. 
+
+\subsection{Testes Unitários}
+
+É a menor parte que pode ser testada do código que compõe o software, são de granulação fina, comportamento extremamente rápido, por exemplo, métodos de uma classe, uma classe ou classes que podem estar relacionadas. Não verificam o comportamento de unidades integradas com outros serviços ou dependências, garantem que sua função como unidade estão funcionando. Seu objetivo é isolar parte do programa e mostrar que partes individuais estão corretas em termos de requisitos e funcionalidades \cite{James2012}.  Existe um limite para cenários e dados que podem ser aplicados ao nível de testes de unidade, quando é nítido esse esgotamento é necessário o mistura com outras unidades do código e diferentes tipos de testes \cite{XiangFeng2011}.
+
+\subsection{Testes de Integração}
+
+Neste caso, é realizada a combinação de partes da aplicação que serão agrupadas para determinar se funcionamento desse conjunto está trabalhando corretamente \cite{XiangFeng2011}. Alguns defeitos não podem ser encontrados a nível unitário, mas são revelados através da integração com núcleos específicos \cite{Pachawan2014}.
+
+
+
 
 \subsubsection{Definição da pergunta}
 

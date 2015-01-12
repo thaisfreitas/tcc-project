@@ -12,44 +12,44 @@ A level-1 auxiliary file: capitulos/validacao/validacao.aux
 A level-1 auxiliary file: capitulos/conclusoes/conclusoes.aux
 The style file: plain.bst
 Database file #1: ./bibliografia/referencias.bib
-You've used 44 entries,
+You've used 49 entries,
             2118 wiz_defined-function locations,
-            773 strings with 13319 characters,
-and the built_in function-call counts, 13653 in all, are:
-= -- 1352
-> -- 460
-< -- 16
-+ -- 196
-- -- 144
-* -- 706
-:= -- 2132
-add.period$ -- 148
-call.type$ -- 44
-change.case$ -- 206
+            802 strings with 14156 characters,
+and the built_in function-call counts, 15056 in all, are:
+= -- 1487
+> -- 501
+< -- 18
++ -- 216
+- -- 156
+* -- 772
+:= -- 2352
+add.period$ -- 163
+call.type$ -- 49
+change.case$ -- 228
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 586
-empty$ -- 1245
-format.name$ -- 144
-if$ -- 3067
+cite$ -- 49
+duplicate$ -- 655
+empty$ -- 1380
+format.name$ -- 156
+if$ -- 3383
 int.to.chr$ -- 0
-int.to.str$ -- 44
-missing$ -- 24
-newline$ -- 238
-num.names$ -- 88
-pop$ -- 310
+int.to.str$ -- 49
+missing$ -- 28
+newline$ -- 263
+num.names$ -- 98
+pop$ -- 346
 preamble$ -- 1
-purify$ -- 160
+purify$ -- 176
 quote$ -- 0
-skip$ -- 489
+skip$ -- 541
 stack$ -- 0
-substring$ -- 753
-swap$ -- 193
-text.length$ -- 16
+substring$ -- 821
+swap$ -- 213
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 174
+type$ -- 192
 warning$ -- 0
-while$ -- 127
-width$ -- 46
-write$ -- 500
+while$ -- 141
+width$ -- 51
+write$ -- 553

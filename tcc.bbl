@@ -38,6 +38,12 @@ M.~Block.
 \newblock Evolving to agile: A story of agile adoption at a small saas company.
 \newblock In {\em Agile Conference (AGILE), 2011}, pages 234--239, Aug 2011.
 
+\bibitem{ansiieee1059}
+IEEE~Standards Board.
+\newblock Ieee guide for software verification and validation plans.
+\newblock Technical report, The Institute of Electrical and Electronics
+  Engineers, Inc, December 1993.
+
 \bibitem{Bustard2013}
 D.~Bustard, G.~Wilkie, and D.~Greer.
 \newblock The maturation of agile software development principles and practice:
@@ -162,12 +168,6 @@ Eunha Kim and Seokmoon Ryoo.
 \newblock In {\em Computer Software and Applications Conference (COMPSAC), 2012
   IEEE 36th Annual}, pages 476--481, July 2012.
 
-\bibitem{Barbara04}
-Barbara Kitchenham.
-\newblock Procedures for performing systematic reviews.
-\newblock Technical report, Department of Computer Science, Keele University,
-  UK, 2004.
-
 \bibitem{Korhonen2010}
 Kirsi Korhonen.
 \newblock Evaluating the effect of agile methods on software defect data and
@@ -193,6 +193,13 @@ L.~Lagerberg, T.~Skude, P.~Emanuelsson, K.~Sandahl, and D.~Stahl.
 Mary~Ann Lapham.
 \newblock Dod agile adoption: Necessary considerations, concerns, and changes.
 \newblock {\em CrossTalk Magazine}, pages 31--35, Jan 2012.
+
+\bibitem{tutorialsPoint}
+Tutorials Point India~Private Limited.
+\newblock Software testing-overview.
+\newblock Disponível em:
+  \url{http://www.tutorialspoint.com/software_testing/software_testing_overview.htm}.
+  Acessado em 30/12/2014.
 
 \bibitem{Budnik2010}
 BUDNIK C. J.; CHAN W. K.; KAPFHAMMER~G. M.
@@ -260,6 +267,16 @@ Dr. Vinaya~Babu Radha~Shankarmani, Dr. S. S.~Mantha.
 \newblock {\em International Journal of Scientific and Research Publications
   (IJSRP)}, 2, Nov 2012.
 
+\bibitem{Dustin1999}
+Elfriede Dustin;~J. Rashka; and J.~Paul.
+\newblock {\em The Art of Agile Development}.
+\newblock Addison-Wesley, first edition, 1999.
+
+\bibitem{Pressman2002}
+Pressman; R.S.
+\newblock Software engineering: A practitioners approach.
+\newblock Technical report, McGraw Hill, Inc, 2002.
+
 \bibitem{Sahota2012}
 Michael Sahota.
 \newblock An agile adoption and transformation survival guide.
@@ -292,6 +309,12 @@ Ahmed Sidky.
   \url{http://pt.slideshare.net/nashjain/value-driven-agile-adoption?from_search=4}.
   Acessado em: 14/02/2014.
 
+\bibitem{Pachawan2014}
+Pachawan Augsornsri;~Taratip Suwannasart.
+\newblock An integration testing coverage tool for object-oriented software.
+\newblock In {\em Information Science and Applications (ICISA), 2014
+  International Conference on}, pages 1--5, May 2014.
+
 \bibitem{Vieira2013}
 Rodrigo Vieira.
 \newblock Agilidade das trincheiras do tribunal superior do trabalho.
@@ -299,6 +322,13 @@ Rodrigo Vieira.
 \newblock Disponível em:
   \url{http://www.slideshare.net/rcvieira/agilidade-das-trincheiras-do-tribunal-superior-do-trabalho}.
   Acessado em: 14/02/2014.
+
+\bibitem{Leung1990}
+K.N. Leung Hareton;~Lee White.
+\newblock A study of integration testing and software regression at the
+  integration level.
+\newblock In {\em Software Maintenance, 1990, Proceedings., Conference on},
+  pages 290--301, November 1990.
 
 \bibitem{XiangFeng2011}
 Weinan~Shanxi XiangFeng~Meng.

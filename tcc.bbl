@@ -51,6 +51,12 @@ D.~Bustard, G.~Wilkie, and D.~Greer.
 \newblock In {\em Engineering of Computer Based Systems (ECBS), 2013 20th IEEE
   International Conference and Workshops on the}, pages 139--146, April 2013.
 
+\bibitem{Fantinato2004}
+FANTINATO M.; CUNHA A.; DIAS S.; MIZUNO S.; E~CUNHA C.
+\newblock Um framework reutilizável para a automação de teste funcional de
+  software.
+\newblock In {\em SIMPÓSIO BRASILEIRO DE QUALIDADE DE SOFTWARE}, May 2004.
+
 \bibitem{Srinath2012}
 Srinath Chandrasekharan.
 \newblock Agile in it services.
@@ -79,6 +85,13 @@ James Crisp.
 \newblock Disponível em:
   \url{http://watirmelon.com/2011/06/10/yet-another-software-testing-pyramid/}.
   Acessado em: 30/11/2014.
+
+\bibitem{Cysneiros1997}
+L.~M CYSNEIROS.
+\newblock Integrando requisitos não funcionais ao processo de desenvolvimento
+  de software.
+\newblock Master's thesis, Departamento de Informática, Pontifícia
+  Universidade Católica do Rio deJaneiro, 1997.
 
 \bibitem{Maciel2013}
 Teresa~Maciel e~Alessandra~Mendes.
@@ -167,6 +180,11 @@ Eunha Kim and Seokmoon Ryoo.
 \newblock Agile adoption story from nhn.
 \newblock In {\em Computer Software and Applications Conference (COMPSAC), 2012
   IEEE 36th Annual}, pages 476--481, July 2012.
+
+\bibitem{Kirner1996}
+A.~M. KIRNER, T. G.;~DAVIS.
+\newblock Nonfunctional requirements of real-time systems.
+\newblock {\em Advances in Computers}, 42:1--37, 1996.
 
 \bibitem{Korhonen2010}
 Kirsi Korhonen.
@@ -308,6 +326,13 @@ Ahmed Sidky.
 \newblock Disponível em:
   \url{http://pt.slideshare.net/nashjain/value-driven-agile-adoption?from_search=4}.
   Acessado em: 14/02/2014.
+
+\bibitem{SoftexRecife}
+RECIFE SOFTEX.
+\newblock Fundamentos do teste de software.
+\newblock Disponível em:
+  \url{http://ava.nac.softex.br/pluginfile.php/602/mod_resource/content/2/Aula%202.pdf}.
+  Acessado em 02/01/2015.
 
 \bibitem{Pachawan2014}
 Pachawan Augsornsri;~Taratip Suwannasart.

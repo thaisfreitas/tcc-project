@@ -1,6 +1,5 @@
 \chapter{Referêncial Teórico}
 
-
 É apresentado nesse capítulo um conjunto de definições relevantes para o tema dessa proposta de trabalho. Foi realizada uma pesquisa sistemática para selecionar os principais tópicos apoiam o entendimento deste trabalho. Os detalhes estão descritos nas próximas seções.
 
 \section{Teste de Software}
@@ -33,209 +32,34 @@ Este tipo de teste é baseado nas especificações do software que será testado
 
 \subsection{Testes Unitários}
 
-É a menor parte que pode ser testada do código que compõe o software, são de granulação fina, comportamento extremamente rápido, por exemplo, métodos de uma classe, uma classe ou classes que podem estar relacionadas. Não verificam o comportamento de unidades integradas com outros serviços ou dependências, garantem que sua função como unidade estão funcionando. Seu objetivo é isolar parte do programa e mostrar que partes individuais estão corretas em termos de requisitos e funcionalidades \cite{James2012}.  Existe um limite para cenários e dados que podem ser aplicados ao nível de testes de unidade, quando é nítido esse esgotamento é necessário o mistura com outras unidades do código e diferentes tipos de testes \cite{XiangFeng2011}.
+É a menor parte que pode ser testada do código que compõe o software, são de granulação fina, comportamento extremamente rápido, por exemplo, métodos de uma classe, uma classe ou classes que podem estar relacionadas. Não verificam o comportamento de unidades integradas com outros serviços ou dependências, garantem que sua função como unidade estão funcionando. Seu objetivo é isolar parte do programa e mostrar que partes individuais estão corretas em termos de requisitos e funcionalidades \cite{James2012}.  Existe um limite para cenários e dados que podem ser aplicados ao nível de testes de unidade, quando é nítido esse esgotamento é necessário o mistura com outras unidades do código e diferentes tipos de testes \cite{tutorialsPoint}.
 
 \subsection{Testes de Integração}
 
-Neste caso, é realizada a combinação de partes da aplicação que serão agrupadas para determinar se funcionamento desse conjunto está trabalhando corretamente \cite{XiangFeng2011}. Alguns defeitos não podem ser encontrados a nível unitário, mas são revelados através da integração com núcleos específicos \cite{Pachawan2014}.
+Neste caso, é realizada a combinação de partes da aplicação que serão agrupadas para determinar se funcionamento desse conjunto está trabalhando corretamente \cite{tutorialsPoint}. Alguns defeitos não podem ser encontrados a nível unitário, mas são revelados através da integração com núcleos específicos \cite{Pachawan2014}.
 
+\subsection{Teste de Sistema}
 
+Após a realização dos testes de integração, uma vezes que todos os componentes foram integrados, os testes do sistema como um todo são agora efetuados para garantir que a aplicação atende aos padrões de qualidade desejado \cite{tutorialsPoint}. A aplicação é testada minuciosamente para validar especificações funcionais e técnicas, é construído um ambiente o mais próximo possível do ambiente de produção, para que os testes sejam executados em um ambiente que corresponda ao ambiente no qual o sistema será implantado. O teste do sistema nos retornará a validação dos requisitos de negócio e da arquitetura como todo da aplicação.
 
+\subsection{Teste de Regressão}
 
-\subsubsection{Definição da pergunta}
+Significa testar uma aplicação após o seu código fonte ter sido modificado para validar se ainda continua funcionando devidamente. Consiste em reexecutar casos de testes existentes e verificar se alterações de código não interfere em funcionalidades que estavam trabalhando corretamente, se foram inseridos novos erros ou causa problemas em erros que já foram reparados \cite{Leung1990}. Afim de identificar defeitos introduzidos por novas funcionalidades ou correção de defeitos.
 
-O primeiro passo foi definir a questão a ser respondida ao final da pesquisa: ``\textit{Quais as principais lições aprendidas com a adoção de metodologias ágeis por parte de empresas de desenvolvimento de software na atualidade?}".
+\subsection{Testes de Aceitação}
 
-\subsubsection{Bases de dados relevantes}
+Nível mais alto que trata da aplicação como uma caixa preta, sem dúvidas considerado um dos mais importantes entre os outros, este tipo de teste é feito na grande parte  pelo time de garantia da qualidade \cite{James2012}. Onde todo time verificará se o produto preenche as especificações solicitadas e satisfaz os requisitos dos clientes. O time responsável terá um conjunto de cenários previamente escritos e que serão usados no momento da validação. Durante a fase de validação outros cenários podem  surgir para aumentar a cobertura dos testes. Testes de aceitação não são apenas para identificação de erros de interfaces, mas também para encontrar divergências que poderão resultar em quebra ou erros graves do sistema \cite{tutorialsPoint}. Para a execução de desse tipo de testes é necessário definir critérios de aceitação a partir dos requisitos do software, estabelecendo como o teste será conduzido e a partir desses critérios, avaliar se o produto satisfaz aos requisitos \cite{SoftexRecife}.
 
-Após a definição da pergunta a ser respondida, o próximo passo foi definir as fontes de informação mais confiáveis e relevantes para o tema (Tabela \ref{tab:basesDeDados}).
+\subsection{Testes Não-Funcionais}
 
-\begin{table}[H]
-	\centering
-	\begin{tabular}{| l | r |} \hline \textbf{Nome} & \textbf{Referência} \\ \hline
-		CAPES & http://www.capes.gov.br/ \\ \hline
-		ACM & http://www.acm.org/ \\ \hline
-		IEEE & http://ieeexplore.ieee.org/ \\ \hline
-		Google Scholar & http://scholar.google.com/ \\ \hline
-		Springer Link & http://link.springer.com/ \\ \hline
-	\end{tabular}
-	\caption{Bases de dados consultadas na pesquisa}
-	\label{tab:basesDeDados}
-\end{table}
+Requisitos não funcionais são declarações que define as qualidades globais ou atributos a serem atendidos pelo sistema resultante \cite{Kirner1996}. Estes requisitos, ao contrário dos requisitos funcionais, não expressão nenhuma função a ser realizada pelo software, e sim comportamentos e restrições que este software deve satisfazer \cite{Cysneiros1997}. Os testes desses requisitos são normalmente executados com ajuda de ferramentas especializadas, com grande planejamento, avaliação arquitetural, aplicando técnicas avançadas \cite{tutorialsPoint}.
 
-\nomenclature{CAPES}{Coordenação de Aperfeiçoamento de Pessoal de Nível Superior}%
-\nomenclature{ACM}{Association for Computing Machinery}%
-\nomenclature{IEEE}{Instituto de Engenheiros Eletricistas e Eletrônicos}%
-
-\subsubsection{Palavras-chave}
-
-Nesse passo, foram definidas as palavras-chave (Tabela \ref{tab:palavrasChave}) buscadas nas bases de dados selecionadas.
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}{| l |} \hline \textbf{Palavras-chave} \\ \hline
-		Agile Adoption \\ \hline
-	\end{tabular}
-	\caption{Conjunto de palavras-chave utilizadas na pesquisa}
-	\label{tab:palavrasChave}
-\end{table}
-
-\subsubsection{Critérios de exclusão}
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}{| c | r |} \hline \textbf{Base de dados}  & \textbf{Quantidade} \\ \hline
-		ACM & 106 \\ \hline
-		CAPES & 51 \\ \hline
-		Google Scholar & 849 \\ \hline
-		IEEE & 30 \\ \hline
-		Springer Link & 6 \\
-		\hline
-	\end{tabular}
-	\captionsetup{justification=centering}
-	\caption{Quantidade de material encontrado antes da aplicação dos critérios de exclusão}
-	\label{tab:quantidadeDeMateriaisAntes}
-\end{table}
-
-A base da literatura foi selecionada através do critério de exclusão de artigos. Como existem diversos materiais publicados na área de adoção ágil nas bases de dados selecionadas, foram encontrados cerca de 1000 artigos utilizando-se o conjunto de palavras-chave \textit{``Agile Adoption"} (Tabela \ref{tab:quantidadeDeMateriaisAntes}). Porém, muitos dos dados coletados nessa pesquisa preliminar eram antigos e poderiam não fazer mais muito sentido nos dias atuais. Sendo assim, foi adicionado um segundo critério de exclusão: a data de publicação. Apenas materiais atuais (entre 2010 e 2013) seriam analisados. O contingente de trabalhos passou para, em média, 550 artigos.
-
-Outro ponto importante levado em consideração foi a relevância do tema nos trabalhos restantes. O filtro aplicado foi o de se encontrar as palavras-chave no título ou resumo. Com isso, o número de trabalhos reduziu bastante, para cerca de 50 artigos. Um ponto que vale a pena ser mencionado é que, nessa etapa do processo, caso o critério fosse levado extremamente à risca, bons materiais seriam eliminados. Esse fator foi analisado na etapa posterior.
-
-O último critério de exclusão utilizado nessa pesquisa foi uma análise qualitativa do material restante. Após uma revisão, artigo por artigo, 16 foram escolhidos, estando 2 deles fora do critério de exclusão anterior, mas com conteúdo relevante para a pesquisa. A Tabela  \ref{tab:quantidadeDeMateriais} mostra com detalhes a quantidade de materiais selecionados em cada etapa.
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}{| c | l | r |} \hline \textbf{Critério de exclusão} & \textbf{Base de dados}  & \textbf{Quantidade} \\ \hline
-		\multirow{4}{*}{Artigos entre 2010 e 2013} 
-			& ACM & 26 \\ \cline{2-3}
-			& CAPES & 37 \\ \cline{2-3}
-			& Google Scholar & 459 \\ \cline{2-3}
-			& IEEE & 16 \\ \cline{2-3}
-			& Springer Link & 5 \\ \cline{2-3}
-		\hline \hline
-		\multirow{4}{*}{Palavras-chave no título e/ou resumo} 
-			& ACM & 1 \\ \cline{2-3}
-			& CAPES & 2 \\ \cline{2-3}
-			& Google Scholar & 38 \\ \cline{2-3}
-			& IEEE & 14 \\ \cline{2-3}
-			& Springer Link & 0* \\ \cline{2-3}
-		\hline \hline
-		\multirow{4}{*}{Análise crítica}
-			& ACM & 0 \\ \cline{2-3}
-			& CAPES & 0 \\ \cline{2-3}
-			& Google Scholar & 4 \\ \cline{2-3}
-			& IEEE & 10 \\ \cline{2-3}
-			& Springer Link & 2 \\ \cline{2-3}
-		\hline
-	\end{tabular}
-	\captionsetup{justification=centering}
-	\caption{Quantidade de material encontrado em cada passo da pesquisa}
-	\label{tab:quantidadeDeMateriais}
-\end{table}
-
-\subsection{Artigos selecionados}
-
-O produto final dessa revisão sistemática foi um conjunto de trabalhos acadêmicos relevantes à pesquisa (Tabelas \ref{tab:artigosIEEE}, \ref{tab:artigosGoogle} e \ref{tab:artigosSpringer}).
-
-\begin{table}
-	\centering
-	\captionsetup{justification=centering,margin=1cm}
-	\begin{tabularx}{\linewidth}{ | X | p{3cm} | } \hline \multicolumn{2}{|c|}{\textbf{Base de dados: IEEE}} \\ \hline
-	\multicolumn{1}{|c|}{\textbf{Título do artigo}} & \multicolumn{1}{|c|}{\textbf{Referência}} \\ \hline
-		Agile Adoption Experience: A Case Study in the U.A.E & \cite{Hajjdiab2011} \\ \hline
-		Evolving to Agile: A story of agile adoption at a small SaaS company & \cite{Block2011} \\ \hline
-		Factor Analysis: Investigating Important Aspects for Agile Adoption in Malaysia & \cite{Asnawi2012} \\ \hline
-		Adobe Premiere Pro Scrum Adoption: How an agile approach enabled success in a hyper-competitive landscape & \cite{Adobe2012} \\ \hline
-		Scaling Agile Methods to Regulated Environments: An Industry Case Study & \cite{Fitzgerald2013} \\ \hline
-		The Maturation of Agile Software Development Principles and Practice: Observations on Successive Industrial Studies in 2010 and 2012 & \cite{Bustard2013} \\ \hline
-		Have Agile Techniques been the Silver Bullet for Software Development at Microsoft? & \cite{Microsoft2013} \\ \hline
-		The Agile Office: Experience Report from Cisco’s Unified Communications Business Unit & \cite{Cisco2011} \\ \hline
-		The impact of agile principles and practices on large-scale software development projects A multiple-case study of two projects at Ericsson & \cite{Ericsson2013} \\ \hline
-		Evaluating the Effect of Agile Methods on Software Defect Data and Defect Reporting Practices & \cite{Korhonen2010} \\ \hline
-	\caption{Artigos científicos utilizados na pesquisa encontrados na base de dados IEEE}
-	\label{tab:artigosIEEE}
-	\end{tabularx}
-\end{table}
-
-\begin{table}[H]
-	\centering
-	\captionsetup{justification=centering,margin=1cm}
-	\begin{tabularx}{\linewidth}{ | X | p{3cm} | } \hline \multicolumn{2}{|c|}{\textbf{Base de dados: Google Scholar}} \\ \hline
-	\multicolumn{1}{|c|}{\textbf{Título do artigo}} & \multicolumn{1}{|c|}{\textbf{Referência}} \\ \hline
-		DoD Agile Adoption: Necessary Considerations, Concerns, and Changes & \cite{Lapham2012} \\ \hline
-		Software Tools and Processes: A Key Factor in Successful Agile Adoption & \cite{Arikpo2011} \\ \hline
-		Inclusion of e-Assist to increase Agile Adoption & \cite{Radha2012} \\ \hline
-		Agile Adoption Story from NHN & \cite{Eunha2012} \\ \hline
-	\caption{Artigos científicos utilizados na pesquisa encontrados na base de dados Google Scholar}
-	\label{tab:artigosGoogle}
-	\end{tabularx}
-\end{table}
-
-\begin{table}[H]
-	\centering
-	\captionsetup{justification=centering,margin=1cm}
-	\begin{tabularx}{\linewidth}{ | X | p{3cm} | } \hline \multicolumn{2}{|c|}{\textbf{Base de dados: Springer Link}} \\ \hline
-	\multicolumn{1}{|c|}{\textbf{Título do artigo}} & \multicolumn{1}{|c|}{\textbf{Referência}} \\ \hline
-		The evolution of agile software development in Brazil: Education, research, and the state-of-the-practice & \cite{Claudia2013} \\ \hline
-		Evaluating the impact of an agile transformation: a longitudinal case study in a distributed  & \cite{Nokia2013} \\ \hline
-	\caption{Artigos científicos utilizados na pesquisa encontrados na base de dados Springer Link}
-	\label{tab:artigosSpringer}
-	\end{tabularx}
-\end{table}
-
-O artigo \cite{Hajjdiab2011} apresentou um estudo de caso relatando o processo de adoção de métodos ágeis em uma entidade do governo dos Emirados Árabes Unidos. O relato \cite{Block2011} contou a história de adoção ágil de uma pequena empresa especializada em SaaS. O estudo \cite{Asnawi2012} focou na identificação de importantes aspectos na adoção ágil de empresas de desenvolvimento de software da Malásia. O artigo \cite{Adobe2012} descreveu como o pensamento ágil tem ajudado o Premiere Pro a ter ganhos significativos de vendas, qualidade e sustentabilidade. O estudo \cite{Fitzgerald2013} identificou pontos de tensão em adoção ágil e os ilustrou através de um detalhado caso em que uma abordagem ágil foi implementada com sucesso em um ambiente controlado. A proposta de \cite{Bustard2013} foi descrever o resultado de uma pesquisa feita na indústria cujo foco era entender a maturidade do modelo ágil no norte da Irlanda. A pesquisa \cite{Microsoft2013} rastreou mudanças de atitude e técnicas do processo de adoção ágil na Microsoft através de uma grande pesquisa longitudinal durante um período de seis anos. O artigo \cite{Cisco2011} relatou uma experiência da Cisco ao estabelecer um escritório ágil, descrevendo seu background histórico, seu modelo de governança, onde ele se encaixava na estrutura da organização, atividades primárias, desafios encontrados, etc. A proposta da pesquisa \cite{Ericsson2013} feita na Ericsson foi contribuir com evidências empíricas do impacto do uso de princípios e práticas ágeis na indústria em projetos de larga-escala. O estudo \cite{Korhonen2010} analisou dados de defeitos encontrados num projeto distribuído de uma empresa nos seus doze primeiros meses de transformação ágil. O trabalho \cite{Lapham2012} relatou um caso de um processo de adoção ágil feito no Departamento de Defesa dos Estados Unidos. O artigo \cite{Arikpo2011} teve como foco principal discutir as demandas de gerências de requisito, projeto e configuração, além de processos e ferramentas que facilitaram o processo de adoção ágil. O estudo \cite{Radha2012} discutiu os riscos envolvidos se pessoas não-capacitadas são escolhidas para desenvolver utilizando ágil, bem como maneiras de mitigá-los. O trabalho \cite{Eunha2012} mostrou como começar o processo de transição para desenvolvimento ágil através de dicas, tutoriais orientando como mover times de desenvolvimento de cascata para ágil, análise de benefícios e de possíveis problemas. No artigo \cite{Claudia2013} foi apresentada uma visão global da evolução do movimento ágil no Brasil, seus principais defensores na academia e na indústria, iniciativas educacionais e uma pesquisa que mostrou o estado da arte da indústria de TI no Brasil. O relato \cite{Nokia2013} foi baseado nos resultados de um estudo de caso que analisou o impacto que a introdução de práticas ágeis fez em uma grande companhia que faz parte da Nokia Siemens Networks.
-
-\nomenclature{SaaS}{Software as a Service}%
-\nomenclature{TI}{Tecnologia da Informação}%
-
-\section{Relatos de experiência}
-
-Como o objetivo dessa pesquisa é investigar as principais lições aprendidas por parte de empresas de desenvolvimento de software ao tentar adotar Ágil, além das publicações científicas, também foram considerados relatos de experiências provenientes de apresentações em conferências relevantes. Neste sentido, foi realizada uma revisão exploratória, detalhada na seção abaixo.
-
-\subsection{Método de pesquisa}
-
-Para a seleção de relatos de experiência foi feita uma pesquisa exploratória, método bem mais flexível se comparado à revisão sistemática. As fontes utilizadas nessa etapa foram as conferências de Engenharia de Software representativas internacionalmente, como: \textit{``Agile Conference",``Agile Brazil",``Agile Mumbai",``Agile Goa"}, etc.
-
-Uma análise qualitativa foi efetuada em cada material encontrado, mantendo-se o critério de selecionar trabalhos recentes e que contribuissem com os objetivos da pesquisa.
-
-\subsection{Relatos selecionados}
-
-A Tabela \ref{tab:relatosEncontrados} apresenta informações a respeito dos relatos de experiência selecionados para a pesquisa (título, conferência e ano em que foram apresentados).
-
-\begin{table}[H]
-	\centering
-	\captionsetup{justification=centering,margin=1cm}
-	\begin{tabular}{| c | c | m{8cm} | m{2.5cm} |} \hline \textbf{Ano} & \textbf{Conferência}  & \textbf{Título do trabalho} & \textbf{Referência} \\ \hline
-		\multirow{1}{*}{2008}
-			& Agile Mumbai & Value-Driven Agile Adoption & \cite{Ahmed2008} \\ \cline{2-4}
-		\hline \hline
-		\multirow{4}{*}{2012}
-			& \multirow{1}{*}{Agile Conference}
-				& An Agile Adoption and Transformation Survival Guide & \cite{Sahota2012} \\ \cline{2-4}
-			& \multirow{2}{*}{Agile Brazil}
-				& Abolições Aprendidas: agilidade fora do contexto ideal & \cite{Piegas2012} \\ \cline{3-4}
-				&& Implantando a Cultura Ágil em Larga Escala & \cite{Parzinello2012} \\ \cline{2-4}
-			& \multirow{1}{*}{Agile Goa}
-				& Agile in IT services & \cite{Srinath2012} \\ \cline{2-4}
-		\hline \hline
-		\multirow{18}{*}{2013}
-			& \multirow{4}{*}{Agile Conference}
-				& Evolving to Agile: transforming a public sector organization & \cite{Karaj2013} \\ \cline{3-4}
-				&& Lean Change: Enabling Agile Transformation through Lean Startup, Kanban, and Kotter & \cite{Hui2013} \\ \cline{2-4}
-			& \multirow{12}{*}{Agile Brazil}
-				& 4 atitudes para melhorar a agilidade de uma empresa. Na prática. & \cite{Valerio2013} \\ \cline{3-4}
-				&& Desafios do Desenvolvimento Ágil para o Governo & \cite{Stefano2013} \\ \cline{3-4}
-				&& Padrões e Antipadrões da Adoção da Agilidade em Governo & \cite{Rodrigues2013} \\ \cline{3-4}
-				&& Agilidade das Trincheiras do Tribunal Superior de Trabalho & \cite{Vieira2013} \\ \cline{3-4}
-				&& Agile Black Ops - Como infiltrar agile em ambiente hostil & \cite{Queiroz2013} \\ \cline{3-4}
-				&& Adoção de práticas ágeis no desenvolvimento de software de missão crítica & \cite{Bastos2013} \\ \cline{3-4}
-				&& A incrível História de uma Organização Pública que Acredita em Agilidade & \cite{Maciel2013} \\ \cline{2-4}
-		\hline
-	\end{tabular}
-	\caption{Relatos de experiência utilizados na pesquisa encontrados nas principais conferências relevantes}
-	\label{tab:relatosEncontrados}
-\end{table}
-
-Dentre os trabalhos selecionados, a apresentação\cite{Ahmed2008} demonstrou um framework para auxiliar no processo de adoção ágil. O trabalho \cite{Sahota2012} criou um guia para não apenas se adotar Ágil, mas sim transformar a organização, fazer com que ela de fato seja ágil. O trabalho \cite{Piegas2012} listou dezessete lições aprendidas ao se adotar Ágil fora do contexto ideal. O relato \cite{Parzinello2012} compartilhou uma experiência sobre um processo de adesão ágil gradual em larga escala. O conteúdo de \cite{Srinath2012} relacionou desafios e lições aprendidas descobertas durante a utilização de Ágil em uma organização de serviços de TI. A apresentação \cite{Karaj2013} detalhou todo o processo de maturação e uso de metodologias ágeis em uma organização pública. Foram demonstrados em \cite{Hui2013} princípios de Lean Startup que auxiliam no processo de transformação ágil. No relato de experiência \cite{Valerio2013} apresentaram-se algumas práticas e atitudes tomadas em uma equipe em formação com o objetivo de alinhar e compartilhar o conhecimento entre todos, evitando as chamadas ilhas de conhecimento. O relato \cite{Stefano2013} compartilhou desafios enfrentados pela empresa Digitho Brasil ao adotar uma abordagem de desenvolvimento ágil para o governo. O trabalho \cite{Rodrigues2013} mostrou o caso de adoção ágil do VisPublica (projeto sobre visualização de dados públicos). A palestra \cite{Vieira2013}, apresentada no Agile Brazil 2013 em Brasília-DF, relatou os problemas e soluções encontrados pelo TST na implantação de métodos ágeis de desenvolvimento de software. A apresentação \cite{Queiroz2013}, utilizando uma abordagem problema/solução/resultado, compartilhou experiências sobre o uso de metodologias ágeis em ambientes hostis (não-ideais). O estudo \cite{Bastos2013} demonstrou o impacto causado por Ágil num projeto chamado Ecossistema de Urna, responsável pela automação de atividades e processos envolvendo a urna eletrônica no Brasil. O relato \cite{Maciel2013} descreveu a experiência do SERPRO Recife sobre sua busca pela agilidade.
-
-\nomenclature{TST}{Tribunal Superior do Trabalho}%
+Alguns dos considerados mais importantes tipos de validação não funcionais são \cite{tutorialsPoint}:
+\begin{itemize}
+	\item Teste de Performance
+	\item Teste de Carga
+	\item Teste de Stress
+	\item Teste de Segurança
+	\item Teste de Usabilidade
+	\item Teste de Portabilidade
+\end{itemize}

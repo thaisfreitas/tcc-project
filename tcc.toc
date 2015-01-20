@@ -5,8 +5,7 @@
 \contentsline {section}{\numberline {1.3}Objetivos}{6}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Objetivo Geral}{6}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Objetivo Espec\IeC {\'\i }ficos}{6}{subsection.1.3.2}
-\contentsline {section}{\numberline {1.4}Contribui\IeC {\c c}\IeC {\~o}es obtidas}{6}{section.1.4}
-\contentsline {section}{\numberline {1.5}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{7}{section.1.5}
+\contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{6}{section.1.4}
 \contentsline {chapter}{\numberline {2}Refer\IeC {\^e}ncial Te\IeC {\'o}rico}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Teste de Software}{8}{section.2.1}
 \contentsline {section}{\numberline {2.2}Tipos de Teste de software}{9}{section.2.2}
@@ -20,45 +19,29 @@
 \contentsline {subsection}{\numberline {2.3.5}Teste de Regress\IeC {\~a}o}{11}{subsection.2.3.5}
 \contentsline {subsection}{\numberline {2.3.6}Testes de Aceita\IeC {\c c}\IeC {\~a}o}{11}{subsection.2.3.6}
 \contentsline {subsection}{\numberline {2.3.7}Testes N\IeC {\~a}o-Funcionais}{12}{subsection.2.3.7}
-\contentsline {chapter}{\numberline {3}Automa\IeC {\c c}\IeC {\~a}o de Testes}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Mapeamento e categoriza\IeC {\c c}\IeC {\~a}o}{13}{section.3.1}
-\contentsline {section}{\numberline {3.2}An\IeC {\'a}lises das li\IeC {\c c}\IeC {\~o}es aprendidas}{16}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Experi\IeC {\^e}ncia, treinamento e aprendizado}{16}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Planejamento e gerenciamento de backlog}{18}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Apoio gerencial e dos clientes}{19}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Customiza\IeC {\c c}\IeC {\~a}o e adaptabilidade}{20}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Confian\IeC {\c c}a do time}{22}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Engajamento, comprometimento, disciplina e trabalho em equipe}{23}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Aspectos t\IeC {\'e}cnicos e tecnol\IeC {\'o}gicos}{25}{subsection.3.2.7}
-\contentsline {subsection}{\numberline {3.2.8}Compartilhamento de conhecimento}{26}{subsection.3.2.8}
-\contentsline {subsection}{\numberline {3.2.9}Velocidade de entrega e produtividade}{28}{subsection.3.2.9}
-\contentsline {subsection}{\numberline {3.2.10}Qualidade do produto final}{29}{subsection.3.2.10}
-\contentsline {subsection}{\numberline {3.2.11}Tamanho da organiza\IeC {\c c}\IeC {\~a}o}{30}{subsection.3.2.11}
-\contentsline {subsection}{\numberline {3.2.12}Quebra de paradigma}{31}{subsection.3.2.12}
-\contentsline {subsection}{\numberline {3.2.13}Comunica\IeC {\c c}\IeC {\~a}o remota}{33}{subsection.3.2.13}
-\contentsline {subsection}{\numberline {3.2.14}Cultura organizacional}{34}{subsection.3.2.14}
-\contentsline {chapter}{\numberline {4}Valida\IeC {\c c}\IeC {\~a}o das Categorias de Li\IeC {\c c}\IeC {\~o}es Aprendidas}{36}{chapter.4}
-\contentsline {section}{\numberline {4.1}M\IeC {\'e}todo de valida\IeC {\c c}\IeC {\~a}o}{36}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Defini\IeC {\c c}\IeC {\~a}o do objetivo}{36}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Elabora\IeC {\c c}\IeC {\~a}o do question\IeC {\'a}rio}{37}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Defini\IeC {\c c}\IeC {\~a}o da popula\IeC {\c c}\IeC {\~a}o pesquisada}{37}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Aplica\IeC {\c c}\IeC {\~a}o do question\IeC {\'a}rio}{40}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}An\IeC {\'a}lise dos resultados}{41}{subsection.4.1.5}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a experi\IeC {\^e}ncia, treinamento e aprendizado dos envolvidos?}{41}{section*.40}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o planejamento e gerenciamento do backlog do projeto?}{41}{section*.42}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o apoio gerencial e dos clientes?}{41}{section*.44}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a capacidade de customiza\IeC {\c c}\IeC {\~a}o e adaptabilidade do projeto?}{42}{section*.46}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o n\IeC {\'\i }vel de confian\IeC {\c c}a do time?}{42}{section*.48}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o n\IeC {\'\i }vel de engajamento, comprometimento, disciplina e trabalho em equipe dos integrantes do projeto?}{42}{section*.50}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para os aspectos t\IeC {\'e}cnicos e tecnol\IeC {\'o}gicos utilizados?}{43}{section*.52}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o h\IeC {\'a}bito do compartilhamento de conhecimento dentro e fora do projeto?}{43}{section*.54}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a velocidade de entrega e a produtividade da equipe?}{43}{section*.56}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para a busca pela melhoria na qualidade do produto final?}{44}{section*.58}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o tamanho da organiza\IeC {\c c}\IeC {\~a}o que est\IeC {\'a} tentando adotar \IeC {\'A}gil?}{44}{section*.60}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para os esfor\IeC {\c c}os com a quebra de paradigma necess\IeC {\'a}ria para a implementa\IeC {\c c}\IeC {\~a}o de \IeC {\'A}gil?}{44}{section*.62}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o esfor\IeC {\c c}o para se lidar com comunica\IeC {\c c}\IeC {\~a}o remota?}{45}{section*.64}
-\contentsline {subsubsection}{Qual n\IeC {\'\i }vel de prioridade voc\IeC {\^e} daria para o alinhamento da cultura da organiza\IeC {\c c}\IeC {\~a}o com os Princ\IeC {\'\i }pios \IeC {\'A}geis?}{45}{section*.66}
-\contentsline {subsubsection}{Se voc\IeC {\^e} tivesse que selecionar apenas 5 das categorias relacionadas anteriormente, quais voc\IeC {\^e} ressaltaria como as mais cr\IeC {\'\i }ticas para serem consideradas por uma organiza\IeC {\c c}\IeC {\~a}o na ado\IeC {\c c}\IeC {\~a}o da abordagem \IeC {\'a}gil?}{46}{section*.68}
-\contentsline {chapter}{\numberline {5}Considera\IeC {\c c}\IeC {\~o}es Finais}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclus\IeC {\~a}o da pesquisa}{47}{section.5.1}
-\contentsline {section}{\numberline {5.2}Trabalhos futuros}{48}{section.5.2}
+\contentsline {subsection}{\numberline {2.3.8}Automa\IeC {\c c}\IeC {\~a}o de testes}{12}{subsection.2.3.8}
+\contentsline {subsubsection}{Vantagens da automa\IeC {\c c}\IeC {\~a}o de testes}{13}{section*.10}
+\contentsline {subsubsection}{Desafios da automa\IeC {\c c}\IeC {\~a}o de testes}{14}{section*.11}
+\contentsline {subsubsection}{T\IeC {\'e}cnicas de automa\IeC {\c c}\IeC {\~a}o de testes}{15}{section*.12}
+\contentsline {subsubsection}{Ferramentas utilizadas na automa\IeC {\c c}\IeC {\~a}o dos testes}{17}{section*.13}
+\contentsline {subsubsection}{Caracter\IeC {\'\i }sticas do BDD utilizadas neste trabalho}{18}{section*.14}
+\contentsline {subsubsection}{Cucumber}{20}{section*.18}
+\contentsline {chapter}{\numberline {3}Metodologia}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}Defini\IeC {\c c}\IeC {\~a}o do Problema}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Defini\IeC {\c c}\IeC {\~a}o da Solu\IeC {\c c}\IeC {\~a}o para aplica\IeC {\c c}\IeC {\~a}o da automa\IeC {\c c}\IeC {\~a}o dos testes}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Referencial Te\IeC {\'o}rico}{24}{section.3.3}
+\contentsline {section}{\numberline {3.4}Sele\IeC {\c c}\IeC {\~a}o dos tipos de testes}{24}{section.3.4}
+\contentsline {section}{\numberline {3.5}Aplica\IeC {\c c}\IeC {\~a}o de testes automatizados ao longo do desenvolvimento}{24}{section.3.5}
+\contentsline {section}{\numberline {3.6}Analise do resultado dos testes automatizados}{25}{section.3.6}
+\contentsline {section}{\numberline {3.7}Conclus\IeC {\~a}o}{25}{section.3.7}
+\contentsline {chapter}{\numberline {4}Automa\IeC {\c c}\IeC {\~a}o de testes no desenvolvimento de uma aplica\IeC {\c c}\IeC {\~a}o}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}Contextualiza\IeC {\c c}\IeC {\~a}o da Aplica\IeC {\c c}\IeC {\~a}o}{26}{section.4.1}
+\contentsline {section}{\numberline {4.2}Arquitetura da Aplica\IeC {\c c}\IeC {\~a}o}{27}{section.4.2}
+\contentsline {section}{\numberline {4.3}Processo de automa\IeC {\c c}\IeC {\~a}o dos testes}{28}{section.4.3}
+\contentsline {subsubsection}{Defini\IeC {\c c}\IeC {\~a}o dos objetivos dos testes}{29}{section*.22}
+\contentsline {subsubsection}{Implementa\IeC {\c c}\IeC {\~a}o dos testes unit\IeC {\'a}rios e integra\IeC {\c c}\IeC {\~a}o}{29}{section*.23}
+\contentsline {subsubsection}{Implementando BDD com Cucumber}{35}{section*.31}
+\contentsline {section}{\numberline {4.4}Resultado da automa\IeC {\c c}\IeC {\~a}o dos testes}{40}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclus\IeC {\~a}o}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Conclus\IeC {\~a}o do Trablho}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}Trabalhos futuros}{44}{section.5.2}

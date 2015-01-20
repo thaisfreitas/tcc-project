@@ -1,5 +1,15 @@
 \begin{thebibliography}{10}
 
+\bibitem{ace}
+Ace.
+\newblock Disponível em: \url{http://jmir.sourceforge.net/ACE.html}. Acessado
+  em 30/12/2014.
+
+\bibitem{jmir}
+jmir.
+\newblock Disponível em: \url{http://jmir.sourceforge.net/overview.html}.
+  Acessado em 30/12/2014.
+
 \bibitem{Wissink206}
 T.~Wissink;~C. Amaro.
 \newblock Strategies for agile software testing automation: An industrial
@@ -7,63 +17,17 @@ T.~Wissink;~C. Amaro.
 \newblock In {\em Software Maintenance, 2006. ICSM '06. 22nd IEEE International
   Conference on}, pages 265--266, September 2006.
 
-\bibitem{Arikpo2011}
-Adenike~O. Arikpo, Iwara I.;~Osofisan.
-\newblock Software tools and processes: A key factor in successful agile
-  adoption.
-\newblock {\em Computing and Information Systems}, 15:14--26, Feb 2011.
-
-\bibitem{Asnawi2012}
-A.L. Asnawi, A.M. Gravell, and G.B. Wills.
-\newblock Factor analysis: Investigating important aspects for agile adoption
-  in malaysia.
-\newblock In {\em AGILE India (AGILE INDIA), 2012}, pages 60--63, Feb 2012.
-
-\bibitem{Babbie1990}
-R.~Babbie.
-\newblock {\em Survey research methods}.
-\newblock Wadsworth Pub. Co., 1990.
-
-\bibitem{Bastos2013}
-Ana Bastos.
-\newblock Adoção de práticas ágeis no desenvolvimento de software de
-  missão crítica.
-\newblock Apresentado em: Agile Brazil, 2013.
-\newblock Disponível em:
-  \url{http://www.slideshare.net/AnaHeloisaBastos/agile-brazil2013-adocaoagilecossistema}.
-  Acessado em: 14/02/2014.
-
-\bibitem{Block2011}
-M.~Block.
-\newblock Evolving to agile: A story of agile adoption at a small saas company.
-\newblock In {\em Agile Conference (AGILE), 2011}, pages 234--239, Aug 2011.
-
 \bibitem{ansiieee1059}
 IEEE~Standards Board.
 \newblock Ieee guide for software verification and validation plans.
 \newblock Technical report, The Institute of Electrical and Electronics
   Engineers, Inc, December 1993.
 
-\bibitem{Bustard2013}
-D.~Bustard, G.~Wilkie, and D.~Greer.
-\newblock The maturation of agile software development principles and practice:
-  Observations on successive industrial studies in 2010 and 2012.
-\newblock In {\em Engineering of Computer Based Systems (ECBS), 2013 20th IEEE
-  International Conference and Workshops on the}, pages 139--146, April 2013.
-
 \bibitem{Fantinato2004}
 FANTINATO M.; CUNHA A.; DIAS S.; MIZUNO S.; E~CUNHA C.
 \newblock Um framework reutilizável para a automação de teste funcional de
   software.
-\newblock In {\em SIMPÓSIO BRASILEIRO DE QUALIDADE DE SOFTWARE}, May 2004.
-
-\bibitem{Srinath2012}
-Srinath Chandrasekharan.
-\newblock Agile in it services.
-\newblock Apresentado em: Agile Goa, 2012.
-\newblock Disponível em:
-  \url{http://pt.slideshare.net/Srinath_cs/agile-goa-final?from_search=4}.
-  Acessado em: 14/02/2014.
+\newblock In {\em SIMPÓSIO BRASILEIRO DE QUALIDADE DE SOFTWARE}, 2004.
 
 \bibitem{Collins2012}
 E.~Collins and Lucena V.~F. Dias-Neto.
@@ -86,6 +50,11 @@ James Crisp.
   \url{http://watirmelon.com/2011/06/10/yet-another-software-testing-pyramid/}.
   Acessado em: 30/11/2014.
 
+\bibitem{Cucumber}
+cukes.info.
+\newblock Cucumber.
+\newblock Disponível em: \url{http://cukes.info/}. Acessado em 31/12/2014.
+
 \bibitem{Cysneiros1997}
 L.~M CYSNEIROS.
 \newblock Integrando requisitos não funcionais ao processo de desenvolvimento
@@ -93,124 +62,51 @@ L.~M CYSNEIROS.
 \newblock Master's thesis, Departamento de Informática, Pontifícia
   Universidade Católica do Rio deJaneiro, 1997.
 
-\bibitem{Maciel2013}
-Teresa~Maciel e~Alessandra~Mendes.
-\newblock A incrível história de uma organização pública que acredita em
-  agilidade.
-\newblock Apresentado em: Agile Brazil, 2013.
+\bibitem{jornalDiaDia}
+Jornal~Dia Dia.
+\newblock Barulho, inimigo da boa audicao, 2014.
 \newblock Disponível em:
-  \url{http://pt.slideshare.net/tmmaciel/a-incrvel-hist}. Acessado em:
-  14/02/2014.
+  \url{http://www.jornaldiadia.com.br/news/noticia.php?Id=49258#.VKG078AAA/}.
+  Acessado em 03/01/2015.
 
-\bibitem{Piegas2012}
-André~Piegas e~Eduardo~Peres.
-\newblock Abolições aprendidas.
-\newblock Apresentado em: Agile Brazil, 2012.
-\newblock Disponível em:
-  \url{http://www.slideshare.net/eduardomeiraperes/abolies-aprendidas}.
-  Acessado em: 14/02/2014.
+\bibitem{Fewster1999}
+D~FEWSTER, M e~GRAHAM.
+\newblock {\em Software Test Automation - Effective use of test execution
+  tools}.
+\newblock Addison-Wesley, first edition, 1999.
 
-\bibitem{Karaj2013}
-Ardita~Karaj e~Jason~Little.
-\newblock Evolving to agile: transforming a public sector organization.
-\newblock Apresentado em: Agile, 2013.
-\newblock Disponível em:
-  \url{http://www.slideshare.net/agilecoach/agile-2013-from-stone-age-to-agile}.
-  Acessado em: 14/02/2014.
+\bibitem{gherkin}
+Gherkin.
+\newblock Gherkin.
+\newblock Disponível em: \url{http://cukes.info/gherkin.html}. Acessado em
+  02/01/2015.
 
-\bibitem{Parzinello2012}
-Thais~Dalcin e~Luiz C.~Parzinello.
-\newblock Implantando a cultura Ágil em larga escala.
-\newblock Apresentado em: Agile Brazil, 2012.
-\newblock Disponível em:
-  \url{http://www.slideshare.net/parzianello/implantando-a-cultura-gil-em-larga-escala-o-case-do-grupo-rbs}.
-  Acessado em: 14/02/2014.
+\bibitem{Hooda2012}
+R.~Hooda.
+\newblock Automation of software testing: A foundation for the future.
+\newblock {\em INTERNATIONAL JOURNAL OF LATEST RESEARCH IN SCIENCE AND
+  TECHNOLOGY}, 1:152--154, 2012.
 
-\bibitem{Valerio2013}
-Guilherme~Ferreira e~Rafael~Valério.
-\newblock 4 atitudes para melhorar a agilidade de uma empresa. na prática.
-\newblock Apresentado em: Agile Brazil, 2013.
-\newblock Disponível em:
-  \url{http://www.slideshare.net/rafaelvalerio311/4-atitudes-para-melhorar-a-agilidade-de-uma-empresa-na-prtica}.
-  Acessado em: 14/02/2014.
+\bibitem{JBehave}
+JBehave.org.
+\newblock Jbehave.
+\newblock Disponível em: \url{http://jbehave.org/}. Acessado em 31/12/2014.
 
-\bibitem{Rodrigues2013}
-Zé~Rodrigues e~Vinícius~Silva.
-\newblock Padrões e antipadrões da adoção da agilidade em governo.
-\newblock Apresentado em: Agile Brazil, 2013.
-\newblock Disponível em:
-  \url{http://www.slideshare.net/Zeh/padres-a-antipadres-da-adoo-da-agilidade-agile-2013}.
-  Acessado em: 14/02/2014.
-
-\bibitem{Fitzgerald2013}
-B.~Fitzgerald, K.-J. Stol, R.~O'Sullivan, and D.~O'Brien.
-\newblock Scaling agile methods to regulated environments: An industry case
-  study.
-\newblock In {\em Software Engineering (ICSE), 2013 35th International
-  Conference on}, pages 863--872, May 2013.
-
-\bibitem{Adobe2012}
-P.~Green.
-\newblock Adobe premiere pro scrum adoption: How an agile approach enabled
-  success in a hyper-competitive landscape.
-\newblock In {\em Agile Conference (AGILE), 2012}, pages 172--178, Aug 2012.
-
-\bibitem{Hajjdiab2011}
-H.~Hajjdiab and A.S. Taleb.
-\newblock Agile adoption experience: A case study in the u.a.e.
-\newblock In {\em Software Engineering and Service Science (ICSESS), 2011 IEEE
-  2nd International Conference on}, pages 31--34, July 2011.
-
-\bibitem{agileManifesto}
-Jim Highsmith and Martin Fowler.
-\newblock The agile manifesto.
-\newblock {\em Software Development Magazine}, 9:29--30, 2001.
-
-\bibitem{Hui2013}
-Alexis Hui.
-\newblock Lean change: Enabling agile transformation through lean startup,
-  kanban, and kotter.
-\newblock Apresentado em: Agile, 2013.
-\newblock Disponível em:
-  \url{https://submissions.agilealliance.org/system/attachments/attachments/000/000/056/original/Agile_2013_-_Lean_Change_for_Enabling_Agile_Transformations.pdf?1385085655}.
-  Acessado em: 14/02/2014.
-
-\bibitem{Eunha2012}
-Eunha Kim and Seokmoon Ryoo.
-\newblock Agile adoption story from nhn.
-\newblock In {\em Computer Software and Applications Conference (COMPSAC), 2012
-  IEEE 36th Annual}, pages 476--481, July 2012.
+\bibitem{JUnit}
+junit.org.
+\newblock Junit.
+\newblock Disponível em: \url{http://junit.org/}. Acessado em 31/12/2014.
 
 \bibitem{Kirner1996}
 A.~M. KIRNER, T. G.;~DAVIS.
 \newblock Nonfunctional requirements of real-time systems.
 \newblock {\em Advances in Computers}, 42:1--37, 1996.
 
-\bibitem{Korhonen2010}
-Kirsi Korhonen.
-\newblock Evaluating the effect of agile methods on software defect data and
-  defect reporting practices - a case study.
-\newblock In {\em Proceedings of the 2010 Seventh International Conference on
-  the Quality of Information and Communications Technology}, QUATIC '10, pages
-  35--43, Washington, DC, USA, 2010. IEEE Computer Society.
-
-\bibitem{Nokia2013}
-Kirsi Korhonen.
-\newblock Evaluating the impact of an agile transformation: a longitudinal case
-  study in a distributed context.
-\newblock {\em Software Quality Journal}, 21(4):599--624, 2013.
-
-\bibitem{Ericsson2013}
-L.~Lagerberg, T.~Skude, P.~Emanuelsson, K.~Sandahl, and D.~Stahl.
-\newblock The impact of agile principles and practices on large-scale software
-  development projects: A multiple-case study of two projects at ericsson.
-\newblock In {\em Empirical Software Engineering and Measurement, 2013 ACM /
-  IEEE International Symposium on}, pages 348--356, Oct 2013.
-
-\bibitem{Lapham2012}
-Mary~Ann Lapham.
-\newblock Dod agile adoption: Necessary considerations, concerns, and changes.
-\newblock {\em CrossTalk Magazine}, pages 31--35, Jan 2012.
+\bibitem{Lima2012}
+T.~Lima.
+\newblock Usando o silktest para automatizar testes: um relato de experiencia.
+\newblock In {\em 6TH BRAZILIAN WORKSHOP ON SYSTEMATIC AND AUTOMATED SOFTWARE
+  TESTING}, 2012.
 
 \bibitem{tutorialsPoint}
 Tutorials Point India~Private Limited.
@@ -238,19 +134,24 @@ Wanessa Mariana and Angelica Toffano.
 \newblock Technical report, Centro Universitario de Brasilia-Uniceub, August
   2012.
 
-\bibitem{Microsoft2013}
-B.~Murphy, C.~Bird, T.~Zimmermann, L.~Williams, N.~Nagappan, and A.~Begel.
-\newblock Have agile techniques been the silver bullet for software development
-  at microsoft?
-\newblock In {\em Empirical Software Engineering and Measurement, 2013 ACM /
-  IEEE International Symposium on}, pages 75--84, Oct 2013.
+\bibitem{ruido}
+Nuno Trigueiros-Cunha Marie~Camilleri.
+\newblock Ruido: Atencao perigo ! proteccao.
+\newblock Disponível em: \url{http://www.cochlea.org/po/ruido}. Acessado em
+  03/01/2015.
 
-\bibitem{Claudia2013}
-Claudia O.~Melo, Viviane Santos, Eduardo Katayama, Hugo Corbucci, Rafael
-  Prikladnicki, Alfredo Goldman, and Fabio Kon.
-\newblock The evolution of agile software development in brazil.
-\newblock {\em Journal of the Brazilian Computer Society}, 19(4):523--552,
-  2013.
+\bibitem{Molinari2010}
+Bruno Molinari.
+\newblock Implementacao de ambiente de testes automatizados para avaliacao de
+  parametros de qos em redes de comunicacao de dados baseado em software livre.
+\newblock Technical report, UNIVERSIDADE SAO FRANCISCO-Engenharia de
+  Computacao, 2002.
+
+\bibitem{bddIntroducing}
+D.~North.
+\newblock Introducing bdd.
+\newblock Disponível em: \url{http://dannorth.net/introducing-bdd/}. Acessado
+  em 31/12/2014.
 
 \bibitem{inportanciaTestesAutomatizados}
 Fabio~Kon Paulo~Cheque.
@@ -265,25 +166,13 @@ Bret Pettichord.
   \url{http://https://www.prismnet.com/~wazmo/papers/seven_steps}. Acessado em:
   30/11/2014.
 
-\bibitem{Cisco2011}
-K.~Power.
-\newblock The agile office: Experience report from cisco's unified
-  communications business unit.
-\newblock In {\em Agile Conference (AGILE), 2011}, pages 201--208, Aug 2011.
-
-\bibitem{Queiroz2013}
-Vitor Queiroz.
-\newblock Agile black ops - como infiltrar agile em ambiente hostil.
-\newblock Apresentado em: Agile Brazil, 2013.
+\bibitem{censo2010}
+O~portal de infromacao para pessoa~com deficiencia.
+\newblock Resultados do censo 2010 feito pelo ibge sobre pessoas com
+  deficiÊncia.
 \newblock Disponível em:
-  \url{http://www.slideshare.net/VitorQ/agile-black-ops}. Acessado em:
-  14/02/2014.
-
-\bibitem{Radha2012}
-Dr. Vinaya~Babu Radha~Shankarmani, Dr. S. S.~Mantha.
-\newblock Inclusion of e-assist to increase agile adoption.
-\newblock {\em International Journal of Scientific and Research Publications
-  (IJSRP)}, 2, Nov 2012.
+  \url{http://www.deficientefisico.com/resultados-do-censo-2010-feito-pelo-ibge-sobre-pessoas-com-deficiencia/}.
+  Acessado em 02/01/2015.
 
 \bibitem{Dustin1999}
 Elfriede Dustin;~J. Rashka; and J.~Paul.
@@ -295,21 +184,10 @@ Pressman; R.S.
 \newblock Software engineering: A practitioners approach.
 \newblock Technical report, McGraw Hill, Inc, 2002.
 
-\bibitem{Sahota2012}
-Michael Sahota.
-\newblock An agile adoption and transformation survival guide.
-\newblock Apresentado em: Agile, 2012.
-\newblock Disponível em:
-  \url{http://pt.slideshare.net/michael.sahota/agile-2012-an-agile-adoption-and-transformation-survival-guide?from_search=10}.
-  Acessado em: 14/02/2014.
-
-\bibitem{Stefano2013}
-Stéfano~Dos Santos.
-\newblock Desafios do desenvolvimento Ágil para o governo.
-\newblock Apresentado em: Agile Brazil, 2013.
-\newblock Disponível em:
-  \url{http://www.slideshare.net/stefanohs/desafios-do-desenvolvimento-gil-para-o-governo}.
-  Acessado em: 14/02/2014.
+\bibitem{RSpec}
+rspec.info.
+\newblock Rspec.
+\newblock Disponível em: \url{http://rspec.info/}. Acessado em 31/12/2014.
 
 \bibitem{WatirMelon2012}
 Alister Scott.
@@ -319,14 +197,6 @@ Alister Scott.
   \url{http://watirmelon.com/2012/01/31/introducing-the-software-testing-ice-cream-cone/}.
   Acessado em: 25/11/2014.
 
-\bibitem{Ahmed2008}
-Ahmed Sidky.
-\newblock Value-driven agile adoption.
-\newblock Apresentado em: Agile Mumbai, 2008.
-\newblock Disponível em:
-  \url{http://pt.slideshare.net/nashjain/value-driven-agile-adoption?from_search=4}.
-  Acessado em: 14/02/2014.
-
 \bibitem{SoftexRecife}
 RECIFE SOFTEX.
 \newblock Fundamentos do teste de software.
@@ -334,19 +204,17 @@ RECIFE SOFTEX.
   \url{http://ava.nac.softex.br/pluginfile.php/602/mod_resource/content/2/Aula%202.pdf}.
   Acessado em 02/01/2015.
 
+\bibitem{Solis2011}
+Xiaofeng~Wang Solis~C.
+\newblock An integration testing coverage tool for object-oriented software.
+\newblock In {\em Software Engineering and Advanced Applications (SEAA), 2011
+  37th EUROMICRO Conference on}, pages 383--387, Aug 2011.
+
 \bibitem{Pachawan2014}
 Pachawan Augsornsri;~Taratip Suwannasart.
 \newblock An integration testing coverage tool for object-oriented software.
 \newblock In {\em Information Science and Applications (ICISA), 2014
   International Conference on}, pages 1--5, May 2014.
-
-\bibitem{Vieira2013}
-Rodrigo Vieira.
-\newblock Agilidade das trincheiras do tribunal superior do trabalho.
-\newblock Apresentado em: Agile Brazil, 2013.
-\newblock Disponível em:
-  \url{http://www.slideshare.net/rcvieira/agilidade-das-trincheiras-do-tribunal-superior-do-trabalho}.
-  Acessado em: 14/02/2014.
 
 \bibitem{Leung1990}
 K.N. Leung Hareton;~Lee White.
@@ -360,5 +228,11 @@ Weinan~Shanxi XiangFeng~Meng.
 \newblock Analysis of software automation test protocol.
 \newblock In {\em International Conference on Electronic and Mechanical
   Engineering and Information Technology}, pages 4138 -- 4141, August 2011.
+
+\bibitem{Zambelich1998}
+K.~Zambelich.
+\newblock Totally data-driven automated testing.
+\newblock Disponível em: \url{http://www.sqatest.com/w_paper1.html}. Acessado
+  em 30/12/2014.
 
 \end{thebibliography}

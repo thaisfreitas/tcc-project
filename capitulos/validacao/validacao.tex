@@ -1,198 +1,256 @@
-\chapter{Validação das Categorias de Lições Aprendidas}
+\chapter{Automação de testes no desenvolvimento de uma aplicação}
 
-Para se assegurar de sua relevância, as categorias de lições aprendidas mapeadas no capítulo anterior foram validadas por profissionais com experiência em adoção ágil atuantes no mercado de TI brasileiro.
+\section{Contextualização da Aplicação}
+Para realização da proposta deste trabalho, um ideia de protótipo foi gerada a partir de um Brainstorming, afim de criar uma aplicação para dispositivos móveis que fosse capaz de ajudar pessoas com deficiência auditiva ou surda, utilizando a tecnologia de classificação de sinais de áudio.
 
-\section{Método de validação}
+Segundo  o censo de 2010 do IBGE, 45.623.910 de pessoas, que equivalia a 23,9\% da população brasileira, declarou apresentar algum tipo de deficiência física. Sendo 9.722.163 de deficientes auditivos \cite{censo2010}. Um fator agravante desta realidade é a intensidade de sons que as pessoas estão submetidas ao decorrer do dia-a-dia. Alguns dos sons a seguir são exemplos que contribuem para a perda da audição: sons emitidos durante o tráfego de automóveis, obras em andamento, shows, boates e as músicas em volume exagerado nos fones de ouvido \cite{jornalDiaDia}. Segundo especialistas o limite saudável à exposição aos sons é de 80 decibéis (dB). Uma exposição diária acima desse limite pode causar danos irreversíveis para o indivíduo \cite{ruido}.
 
-Conforme descrito em seções anteriores, após uma revisão de literatura baseada no método de revisão sistemática de artigos publicados em revistas e conferências científicas, complementada por  uma pesquisa exploratória de relatos de experiência nas principais conferências nacionais e internacionais sobre o assunto, um conjunto de lições aprendidas foi coletado. Essas lições foram agrupadas considerando suas similaridades em 14 categorias.
+Para que este protótipo de sistema fosse desenvolvido, foi necessário alguns requisitos: 
+\begin{itemize}
+	\item Possuir uma base de áudios que serviriam para treinar o classificador, de forma que ele aprenda a classificar um som, se baseando em sons já existentes e conhecidos. Caso o som tenha sido gravado em um ambiente com pouquíssimo ruídos o classificador terá maior chance de classificar corretamente o áudio, logo ter um som de qualidade pode interferir no resultado final. Caso o som não possua o mínimo de qualidade as chances da classificação ser errada são altas. 
 
-\subsection{Definição do objetivo}
+	\item Utilização de uma ferramenta de extração e de classificação de áudio, para este trabalho a ferramenta escolhida foi o jMIR. O jMIR é uma suíte de software de código aberto implementado em Java para uso na recuperação de informação de musical (Musical Information Retrieve – Recuperação de Informação Musical). Oferecendo suporte  na manipulação de arquivos de áudio, como também para arquivos de formato simbólico. Softwares para extração de características de áudio, aplicação de algoritmos de aprendizado de máquina, mineração de metadados e análise de metadados \cite{jmir}. 
+\end{itemize}
 
-O primeiro passo foi definir a questão a ser validada pelo questionário: ``\textit{As categorias das lições coletadas são relevantes para a comunidade?}".
+Com base nestes recursos foi possível que o desenvolvimento ocorresse e a estruturação da automação dos testes acompanhasse simultaneamente esse processo. 
 
-\subsection{Elaboração do questionário}
+\section{Arquitetura da Aplicação}
 
-Com o intuito de validar a relevância dessas categorias de lições aprendidas propostas por essa pesquisa, um questionário foi elaborado para coletar a opinião de profissionais que vivenciaram a adoção organizacional da abordagem ágil. A metodologia de survey proposta por Babbie em 1990 foi levada em consideração na elaboração do questionário \cite{Babbie1990}. São 15 questões de múltipla escolha cujo foco é a criticidade de cada categoria para que a adoção de Ágil em empresas de desenvolvimento de software ocorra com sucesso.
+Como componentes principais da estrutura do projeto foi utilizado o jAudio ferramenta responsável pela extração de características do áudio. Este pacote pertencente ao jMIR é utilizado para extração de recursos de arquivos de áudio. Essas características podem ser usadas na recuperação das informações da música ( Musical Information Retrieve – Recuperação de Informação Musical). Para realizar a classificação dos áudios foi usado a ferramenta também pertencente ao jMIR, ACE.
 
-\subsection{Definição da população pesquisada}
-
-Para ter um melhor controle com relação à competência e ao nível de experiência dos profissionais consultados, o questionário não foi disponibilizado publicamente. Foram considerados especialistas com reconhecimento nacional através de artigos publicados / palestras em conferências ou profissionais experientes que passaram pela adoção de metodologias ágeis em suas empresas.
-
-Os profissionais consultados têm, em média, 14 anos de experiência com desenvolvimento de software e cerca de 8 anos com Ágil. A Tabela \ref{tab:mini-cvs} apresenta um breve resumo do  perfil profissional daqueles que se identificaram (isto não foi obrigatoriamente solicitado no formulário). De acordo com a tabela, pode-se observar que os perfis dos respondentes atenderam aos critérios estabelecidos.
-
-\begin{tabularx}{\linewidth}{ | p{4cm} | X | } \hline \textbf{Nome} & \textbf{Resumo} \\ \hline
-	Luca Bastos & Engenheiro, empreendedor por 17 anos e desenvolvedor desde os tempos dos cartões perfurados. Organizador e palestrante no Agile Brazil 2012 e 2013. Keynoter no TWBRAway Day 2012. Palestras: CaipiraAgile 2012, TDC 2012, Qcon 2011, AgileBrazil 2011, TDC 2011, RubyConf 2010, Qcon 2010, TDC 2010 e outros. Atualmente trabalha na ThoughtWorks \\ \hline
-	Celso Martins & Atuando no mercado de TI desde 1994, teve os primeiros contatos com o desenvolvimento ainda em 1985, com 7 anos de idade. Tendo passado por grandes empresas, como Embratel, Accenture, Oi, XP Investimentos, hoje atua como consultor da Crafters Software Studio, ajudando a GVT no processo de transição para gestão ágil. Também tem se dedicado, de forma teórica e prática, ao assunto mudança organizacional nos últimos 2 anos. Especialista em Lean, Kanban, Scrum, Management 3.0, Sistemas Complexos, ToC, dispondo de uma caixa de ferramentas interessante para ajudar as empresas a realizar a mudança para a gestão moderna de uma forma suave e com o menor impacto possível. Nas horas vagas, é organizador de eventos voltados à Ágil, como o Agile Trends \\ \hline
-	Felipe Furtado & Possui mestrado em Ciências da Computação pelo Centro de Informática da UFPE na área de métricas e produtividade. Atualmente é doutorando no CIn em metodologias ágeis e modelos de maturidade, gerente de projetos do C.E.S.A.R, coordenador da pós-graduação em gestão ágil de projetos do C.E.S.A.R.edu e docente do mestrado profissional em engenharia de software. Com 16 anos na área de desenvolvimento de software, foi coordenador da garantia da qualidade de software e do SEPG (Software Engineering Process Group) onde adquiriu experiência na área de engenharia de software com ênfase em qualidade de software e gestão de projetos \\ \hline
-	Célio Santana & Doutor em Engenharia de Software pela Universidade Federal de Pernambuco (UFPE). Professor na UFPE e consultor em melhoria de processos \\ \hline
-	João Paulo Novais & Engenheiro de Software com mais de 10 anos de experiência. Analista de Negócio no SERPRO, Agile Coach e organizador de eventos da Comunidade Ágil como Agile Brazil e Agile Trends \\ \hline
-	Paulo Caroli & Agilista e protagonista da ThoughtWorks Brasil, Paulo Caroli possui mais de quinze anos de experiência em desenvolvimento de software, com passagem em várias corporações no Brasil, Índia e EUA. Em 2000, conheceu o Extreme Programming e, desde então, tem focado sua experiência em processos e práticas de Gestão e Desenvolvimento Ágil. Ingressou na ThoughtWorks em 2006 e ocupou os cargos de Agile Coach, Trainer, e Gerente de Projetos. Possui os títulos de Bacharel em Ciência da Computação e M.S. em Engenharia de Software, ambos da PUC-Rio \\ \hline
-	Marcos Garrido & Quase duas décadas de experiência em projetos de tecnologia e atuando como Product Owner em projetos ágeis desde 2008. Além disso, é professor da disciplina de Métodos Ágeis do MBA em Gestão de Projetos da PUC-RIO. Garrido é um membro ativo das comunidades Ágil e Lean, com forte interesse pelos desafios que envolvem a gestão de produtos. Participou como palestrante em um grande número de eventos nacionais e internacionais, com destaque para os Scrum Gatherings de São Paulo, Munich e Orlando, além do Agile Brazil, Ágiles e Agile Rio. Nos últimos anos, tem se envolvido profundamente com o movimento Lean Startup. Garrido é Mestre em Administração com ênfase em Marketing pela PUC-RIO e possui as certificações CSPO, CSM, CSD e CSP pela Scrum Alliance, além de ser Facilitador certificado de Management 3.0 \\ \hline
-	Dairton Bassi & Possui mestrado em Engenharia de Software e bacharelado em Ciência da Computação pelo IME-USP. Co-fundador da Agile Alliance Brazil, Co-criador do Agile Brazil e Coordenador Geral do Agile Brazil 2012. Envolvido com agilidade há 10 anos, foi CTO da Dafiti e, como consultor, implantou metodologias ágeis em inúmeras empresas \\ \hline
-	Renato Willi & Tem trabalhado com desenvolvimento de software a cerca de 12 anos, sendo os últimos 9 coordenando times através de metodologias ágeis. Atualmente é associado da SEA Tecnologia, uma empresa com mais de 10 anos de estrada. Renato também trabalha como organizador e/ou palestrante em vários eventos nacionais sobre metodologias ágeis (Agile Brazil, Maré de Agilidade, QCon, TDC, etc.), além de escrever artigos para blogs e revistas do ramo e colaborar com projetos voluntários de tradução de livros técnicos\\ \hline
-	\captionsetup{justification=centering}
-	\caption{Resumo sobre alguns profissionais da área de TI que responderam o formulário e se identificaram}
-	\label{tab:mini-cvs}
-\end{tabularx}
-
-\subsection{Aplicação do questionário}
-
-Foi utilizada a plataforma Google Docs para disponibilização online do questionário. Dado que ele não estava publicamente disponível, foi necessário enviar seu link por email para aqueles especialistas considerados dentro do perfil previamente estabelecido. Foram recebidas 20 respostas dentro do prazo estipulado.
-
-\subsection{Análise dos resultados}
-
-\subsubsection{Qual nível de prioridade você daria para a experiência, treinamento e aprendizado dos envolvidos?}
+O ACE (Autonomous Classification Engine) é um pacote de software de meta aprendizado para a seleção, otimização e aplicação do algoritmo de máquina de aprendizado em música. ACE é projetado para aumentar a taxa de sucesso na classificação, facilitar a aplicação da máquina de aprendizado para todos os níveis de usuários e fornecer a experimentação dele com novos algoritmos \cite{ace}. Aplicação desenvolvida esta estruturada da seguinte forma: 
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/exp.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Experiência, treinamento e aprendizado"}
-	\label{fig:result-exp}
-\end{figure}
-
-\nomenclature{LAs}{Lições aprendidas} %
-
-\subsubsection{Qual nível de prioridade você daria para o planejamento e gerenciamento do backlog do projeto?}
-
-\begin{figure}[H]
-	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/backlog.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Planejamento e gerenciamento de backlog"}
-	\label{fig:result-backlog}
-\end{figure}
-
-\subsubsection{Qual nível de prioridade você daria para o apoio gerencial e dos clientes?}
-
-\begin{figure}[H]
-	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/apoio.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Apoio gerencial e dos clientes"}
-	\label{fig:result-apoio}
-\end{figure}
-
-\subsubsection{Qual nível de prioridade você daria para a capacidade de customização e adaptabilidade do projeto?}
-
-\begin{figure}[H]
-	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/adaptabilidade.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Customização e adaptabilidade"}
-	\label{fig:result-adaptabilidade}
-\end{figure}
-
-\subsubsection{Qual nível de prioridade você daria para o nível de confiança do time?}
-
-\begin{figure}[H]
-	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/confianca.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Confiança do time"}
-	\label{fig:result-confianca}
-\end{figure}
-
-\subsubsection{Qual nível de prioridade você daria para o nível de engajamento, comprometimento, disciplina e trabalho em equipe dos integrantes do projeto?}
-
-\begin{figure}[H]
-	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/engajamento.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Engajamento, comprometimento, disciplina e trabalho em equipe"}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.80]{capitulos/validacao/figuras/arquiteturaDoSistemaDesenvolvido.eps}
+	\caption{Arquitetura utilizada no sistema desenvolvido}
 	\label{fig:result-engajamento}
 \end{figure}
 
-\subsubsection{Qual nível de prioridade você daria para os aspectos técnicos e tecnológicos utilizados?}
+Com base na figura podemos ver que o projeto conta com um pacote chamado Communicator, que por sua vez estão presentes as classes ACECommunicator e JAudioCommunicator, responsáveis por executarem suas respectivas ferramentas e se comunicarem com o AlertMe. A classe AlertMe é responsável por chamar todas as classes Communicator e executa-las. O projeto possui um pacote chamado Test, neste pacote estão pacotes e classes com a tarefa de automatizar os testes do projeto AlertMe. 
+
+\section{Processo de automação dos testes}
+
+O processo de automação de testes para o sistema desenvolvido foi organizado com o intuito de unir atividades de desenvolvimento e a qualidade do software gerado em tempo de desenvolvimento e não apenas como uma atividade final de validação. Para que isso fosse possível, as atividades de automação foram conduzidas juntamente com o desenvolvedor, o trabalho foi realizado iterativamente com base no que era criado para o sistema.
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/tech.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Aspectos técnicos e tecnológicos"}
-	\label{fig:result-tech}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.80]{capitulos/validacao/figuras/automationTestProcess.eps}
+	\caption{Representação da integração do desenvolvimento e automação dos testes}
+	\label{fig:result-engajamento}
 \end{figure}
 
-\subsubsection{Qual nível de prioridade você daria para o hábito do compartilhamento de conhecimento dentro e fora do projeto?}
+\subsubsection{Definição dos objetivos dos testes}
+
+Inicialmente, foi conduzida uma análise das ferramentas que iriam compor a arquitetura do projeto jAudio e ACE, como elas iriam se integrar dentro da aplicação. Essa análise foi feita a partir de discussões com o desenvolvedor para entender como esses pacotes de softwares funcionavam e de como iriam ser usados. Essas conversas serviram muitas vezes como análise da própria arquitetura antes da implementação e do levantamento dos testes que iriam ser automatizado. Foi possível também identificar que os testes de unidade referente ao jAudio e ACE não fariam parte do escopo deste trabalho, por serem frameworks já testados e que o principal desafio para automação proposta seria então fazer testes automatizados que validassem a integração entres essas ferramentas e o sistema protótipo proposto. Logo os objetivos da automação dos testes dessa aplicação foram a integração das ferramentas(jAudio e ACE), o funcionamento delas separadamente, mas não a nível de testar os algoritmos utilizados por ambas e sim as repostas que essas geraram.
+
+\subsubsection{Implementação dos testes unitários e integração}
+
+Depois da analise feita para identificação dos objetivos da automação e implementação do sistema, foi desenvolvida duas classes: ACECommunicator e JAudioCommunicator. Estas por sua vez, são as responsáveis por executar as ferramentas ACE e jAudio dentro da aplicação. A seguir serão listados os tipos de automação de testes desenvolvidos para cobertura de níveis unitários e de integração. As classes responsáveis por este nível de testes automatizados encontrasse dentro do pacote Communicator que pertence ao pacote de testes do projeto.  
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/conhecimento.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Compartilhamento de conhecimento"}
-	\label{fig:result-conhecimento}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.80]{capitulos/validacao/figuras/testesUnitEdIntegra.eps}
+	\caption{Arquitetura dos pacotes de testes automatizados de unidade e integração, dentro do pacote de testes Communicator.}
+	\label{fig:result-engajamento}
 \end{figure}
 
-\subsubsection{Qual nível de prioridade você daria para a velocidade de entrega e a produtividade da equipe?}
+
+\begin{itemize}
+	\item jAudioCommunicator
+
+Essa classe possui a responsabilidade de extração de características do áudio e como resposta, a criação de um arquivo “output.xml“  que irá conter todas as informações necessárias deste áudio para serem usadas na classificação.  Ela contem um método chamado extractFeatures  que recebe como parâmetro: arquivo de áudio a ser classificado, arquivo settings.xml que possui as configurações que o algoritmo de extração do jAudio necessita e nome do arquivo de output que será preenchido com as características que a extração realizará.  Para que a extração das características e o consequente uso eficaz do jAudio funcione este método precisa validar todos estes argumentos.
+
+Nestas duas primeiras tabelas são apresentados os testes desenvolvidos para validação como unidade do jAudio e estão presentes na classe JAudioCommunicatorTeste.
+
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/produtividade.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Velocidade de entrega e produtividade"}
-	\label{fig:result-produtividade}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/testeConstrutorJAudioCommunicator.eps}
+	\caption{Teste para validação do construtor da classe JAudioCommunicator}
+	\label{fig:result-engajamento}
 \end{figure}
-
-\subsubsection{Qual nível de prioridade você daria para a busca pela melhoria na qualidade do produto final?}
+	
+A validação acima garante que caso o sistema não encontre o arquivo ".jar" do jAudio, a aplicação retornará uma mensagem de erro. 
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/qualidade.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Qualidade do produto final"}
-	\label{fig:result-qualidade}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/testeUniJaudioCommunicator.eps}
+	\caption{Implementação dos testes unitários para classe JAudioCommunicator}
+	\label{fig:result-engajamento}
 \end{figure}
 
-\subsubsection{Qual nível de prioridade você daria para o tamanho da organização que está tentando adotar Ágil?}
+Esses testes validão que o arquivo de áudio, arquivo de configuração e o nome do arquivo de saída não são nulos. Todos os testes garantem que caso um destes arquivos não sejam encontrados ou estejam nulos a aplicação retornará uma mensagem facilitando a vida do usuário para entender qual o erro aconteceu e onde aconteceu. 
+
+Como resultado da extração das características do áudio, temos a criação de dois arquivos de output, o outputFeatureVector e o outputFeatureKey. Alguns testes de integração para validação da criação destes arquivos de output foram desenvolvidos:
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/tamanho.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Tamanho da organização"}
-	\label{fig:result-tamanho}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/testesIntegracaoJAudioCommunicator.eps}
+	\caption{Implementação dos testes de integração para classe JAudioCommunicator}
+	\label{fig:result-engajamento}
 \end{figure}
+	
+Estes testes estão em uma classe chamada JAudioCommunicatorIntegrationTest, pois necessitam de arquivos que servem como entrada para realizar o teste e validar a integração do jAudio com a aplicação. 	
+	
+	\item ACECommunicator
 
-\subsubsection{Qual nível de prioridade você daria para os esforços com a quebra de paradigma necessária para a implementação de Ágil?}
+Esta classe é responsável em executar o ACE e integra-lo com o sistema, é esta classe que possui um método chamado classify, responsável na realização de fato da classificação do arquivo de áudio que foi passado para o jAudio. Para que a realização da classificação ocorra, este método recebe alguns parâmetros. Os parâmetros são: taxonomyFile, featureKeyFile, featureVectorFile, trainedMachineFile.  A figura a seguir mostra uma tabela com os métodos que cobrem a validação destes parâmetros e do arquivo .jar que é passado como argumento do construtor da classe.
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/paradigma.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Quebra de paradigma"}
-	\label{fig:result-paradigma}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/testeConstrutorACECommunicator.eps}
+	\caption{Teste para validação do construtor da classe ACECommunicator}
+	\label{fig:result-engajamento}
 \end{figure}
 
-\subsubsection{Qual nível de prioridade você daria para o esforço para se lidar com comunicação remota?}
+Este método de teste garante que caso a classe ACECommunicator não encontre o ".jar" será lançada uma exceção para notificar que o arquivo não foi encontrado.
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/remota.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Comunicação remota"}
-	\label{fig:result-remota}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/testeUniACECommunicator.eps}
+	\caption{Implementação dos testes unitários para classe ACECommunicator}
+	\label{fig:result-engajamento}
 \end{figure}
 
-\subsubsection{Qual nível de prioridade você daria para o alinhamento da cultura da organização com os Princípios Ágeis?}
+Assim como o JAudioCommunicator, todos estes testes garantem que caso um destes arquivos não sejam encontrados ou estejam nulos a aplicação lançará uma mensagem de erro facilitando a vida do usuário e de todo time, no entendimento de qual erro aconteceu e onde aconteceu.
+
+Como resultado da classificação, o ACECommunicator retornará uma lista contendo: o caminho do arquivo de áudio passado e com a resposta da classificação. Para validação desta lista foram criados vários métodos que testam a integração do ACE com a aplicação, testando cenários ,por exemplo, com entradas de arquivos válidos e inválidos. Segue a lista dos métodos de integração para o ACECommunicator:
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/cultura.eps}}
-	\caption{Contabilização das respostas referentes à criticidade da categoria de LAs ``Cultura organizacional"}
-	\label{fig:result-cultura}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/testesIntegracaoACECommunicator.eps}
+	\caption{Implementação dos testes de integração para classe ACECommunicator}
+	\label{fig:result-engajamento}
 \end{figure}
 
-\subsubsection{Se você tivesse que selecionar apenas 5 das categorias relacionadas anteriormente, quais você ressaltaria como as mais críticas para serem consideradas por uma organização na adoção da abordagem ágil?}
+Os testes de integração da aplicação estão em uma classe chamada ACECommunicatorIntegrationTest, onde possui vários arquivos que foram utilizados como preparação dos cenários de testes.
+
+O método receberá um arquivo "invalidOutputFV.xml" (featureVectorFile) inválido como parâmetro no método classify e depois tentará realizar a classificação, mas é esperado que seja feita a validação de uma mensagem de erro para que o time entenda porque a classificação não foi realizada com sucesso e qual foi o motivo do insucesso. 
+
+Este método utilizará um arquivo xml vindo de um áudio de buzina válido, que foi previamente extraídas suas características com o método extractFeatures pertencente ao JAudioCommunicator, é passado como parâmetro para que o método classify realize a classificação como esperado.
+
+\end{itemize}
+
+\subsubsection{Implementando BDD com Cucumber}
+
+O sistema inicial resultante do desenvolvimento do projeto que este trabalho automatizou os testes não possui interface ainda, mas a ideia protótipo desta interface para smartphone é que seja uma tela simples, com apenas um botão para inserir um áudio e um botão para realizar a classificação, como na ilustração a seguir:
+
 
 \begin{figure}[H]
 	\centering
-	\captionsetup{justification=centering}
-	\makebox[\textwidth]{\includegraphics[width=\textwidth]{capitulos/validacao/figuras/ranking.eps}}
-	\caption{Contabilização das respostas referentes às categorias de LAs consideradas mais importantes}
-	\label{fig:result-ranking}
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/interfaceDaAplicacao.eps}
+	\caption{Protótipo da interface do sistema}
+	\label{fig:result-engajamento}
 \end{figure}
 
-Através do questionário utilizado foi possível perceber que há uma grande relevância nas categorias de lições aprendidas propostas por essa pesquisa. Segundo seu resultado, 12 das 14 categorias foram consideradas de máxima ou alta prioridade por, no mínimo, 80\% dos profissionais consultados. As categorias consideradas menos críticas foram: ``Tamanho da organização" e ``Comunicação remota".
+No inicio da ideação deste projeto uma estória do usuário geral foi criada com intuito de validar a ideia gerada resultante do Brainstorm: 
 
-Outro resultado apontado pelo questionário foi o comparativo, no quesito criticidade, entre categorias de LAs. As mais citadas pelos profissionais da área de TI foram: ``Engajamento, comprometimento, disciplina e trabalho em equipe", ``Cultura organizacional" e ``Experiência, treinamento e aprendizado". Comprovou-se também que ``Tamanho da organização" e ``Comunicação remota", segundo aqueles que responderam o questionário, não devem ser priorizadas, pois foram as categorias menos referenciadas na última questão. 
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/estoriaDoUsuarioDaAplicacao.eps}
+	\caption{Estória do usuário desenvolvida pelo sistema}
+	\label{fig:result-engajamento}
+\end{figure}
+
+Levando em consideração que o BDD nos permite a analise do comportamento que é esperado do software através da escrita de estórias do usuário com uma linguagem simples e que todos os envolvidos podem entender. Fornecendo cenários para validação do comportamento final, os cenários devem ser criados com base na estória para que validem diversos comportamentos a nível de critérios de aceitação para o cliente ou usuário. Para que a implantação dos testes utilizando BDD com Cucumber fosse possível, dentro do projeto foi criado a arquitetura que o Cucumber entende de pacotes.
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/arquiteturaDeBddComCucumber.eps}
+	\caption{Arquitetura dos pacotes responsáveis pela implementação dos testes de BDD com Cucumber}
+	\label{fig:result-engajamento}
+\end{figure}
+
+Dentro do pacote bdd, temos outros dois pacotes o specs e os steps. O pacote specs possui os arquivos .features e o steps possui os arquivos que implementam os passos que os cenários descrevem. Ainda na raiz do pacote BDD possuímos a classe java chamada TestRunner.java que é responsável por executar os testes Cucumber.
+
+Foram desenvolvidos três cenários para validar a estória desta aplicação. Como teste de classificação foi usado dois áudios um de buzina e outro de sirene, que serviram para confirmar que a aplicação está realizando a classificação da forma correta. Outro cenário foi a validação de que o sistema reconhece um arquivo passado por parâmetro caso esse seja inválido.
+
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/cenariosDoBDD.eps}
+	\caption{Cenários de testes automatizados utilizando Cucumber}
+	\label{fig:result-engajamento}
+\end{figure}
+
+Para que o Cucumber entenda estes cenários, os steps (passos) que eles possuem devem ser implementados e chamam os métodos responsáveis para que a pré-condição exista e seja validada. A seguir é possível ver a implementação de um dos cenários que foram desenvolvidos:
+
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/implementacaoDeUmStep1.eps}
+	\caption{Implementação dos steps de um cenário de teste com Cucumber}
+	\label{fig:result-engajamento}
+\end{figure}
+
+A seguinte imagem mostra o resultado ao executarmos os cenários de testes, onde são validados e não são encontrados erros:
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/execucaoDoCucumberEtudoVerde.eps}
+	\caption{Resposta da execução dos cenários de testes que foram implementados com Cucumber}
+	\label{fig:result-engajamento}
+\end{figure}
+
+A figura a seguir é a demonstração de quando um dos cenários não passa ou acontece algum erro na implementação:
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/execucaoDoCucumberComUmErro.eps}
+	\caption{Resposta da execução de um cenário de testes que possui um step com falha}
+	\label{fig:result-engajamento}
+\end{figure}
+
+Este cenário falhou porque era esperado que o resultado da classificação fosse "Sirene" mas a classificação retornou "Buzina". Também como output da execução dos testes automatizados com Cucumber podemos ver a o tempo que a execução durou, a quantidade de cenários e testes que falharam ou passaram:
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.65]{capitulos/validacao/figuras/quantidadeDeErrosQpassaramOUn.eps}
+	\caption{Quantidade de cenários de testes e de steps pertencentes a feature executada no Cucumber}
+	\label{fig:result-engajamento}
+\end{figure}
+
+\section{Resultado da automação dos testes}
+Conforme dito previamente este trabalho teve o objetivo de selecionar, implementar e analisar automação de testes durante o desenvolvimento de uma aplicação, para que todo os níveis possíveis da pirâmide de testes [10] fossem contemplados com testes automatizados. Como observado na análise dos objetivos da automação, boa parte dos testes foram realizados para validar a integração dos pacotes de software ACE e jAudio com o sistema. O que justifica tomarmos como base para este trabalho a pirâmide a seguir: 
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.35]{capitulos/validacao/figuras/businesstechnologyautomatedtestingpyramid.eps}
+	\caption{Pirâmide de testes dividida nas faces de negócio e tecnologia}
+	\label{fig:result-engajamento}
+\end{figure}
+
+Levando em consideração a analise dos objetivos da automação, é visto que esta é a estratégia para aplicação dos testes que melhor se aplica aos resultados que foram coletados ao final deste trabalho.
+
+Para validação da pergunta no topo da pirâmide: "Are we building the right system?" (estamos construindo o sistema certo?), foi realizada a validação com base nos testes de aceitação utilizando BDD e com a ferramenta Cucumber,  onde foram desenvolvidos 3 cenários e 12 steps (passos). Este tipo de validação nos ajuda a encontrar divergências entre os principais objetivos do sistema e o seu resultado final esperado, garantindo a verificação do comportamento da aplicação. 
+
+Conforme apresentado na figura, todos os testes de unidade e de integração se encontram na base da pirâmide, respondendo a pergunta: "Are we building the system right?" (Estamos construindo o sistema forma correta?).  A  aplicação dos testes automatizados, realizados neste trabalho, resultou  em um total de 34 testes, onde 20 destes foram de integração e 14 testes de unidade. É relevante ressaltar que as ferramentas utilizadas ACE e jAudio já possuem uma gama de testes que não fazem parte deste do escopo desta proposta, mas que ressaltam a importância dos testes que foram realizados serem de integração. Com isso é factível assumir que o desenvolvimento foi coberto por atividades de testes automatizados desde a sua concepção até o final do desenvolvimento. Com praticamente todas as classes e integrações testadas automaticamente ao realizar alguma mudança no projeto e ao gerar um novo build. A imagem a seguir mostra a representação da pirâmide aplicada neste projeto. 
+
+\begin{figure}[H]
+	\centering
+	\captionsetup{justification=centering,margin=2cm}
+	\includegraphics[scale=0.35]{capitulos/validacao/figuras/pyramid.eps}
+	\caption{Pirâmide com as quantidades de testes desenvolvidos neste trabalho}
+	\label{fig:result-engajamento}
+\end{figure}
+

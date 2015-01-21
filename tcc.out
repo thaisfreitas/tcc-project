@@ -31,7 +31,10 @@
 \BOOKMARK [1][-]{section.4.1}{Contextualiza\347\343o da Aplica\347\343o}{chapter.4}% 31
 \BOOKMARK [1][-]{section.4.2}{Arquitetura da Aplica\347\343o}{chapter.4}% 32
 \BOOKMARK [1][-]{section.4.3}{Processo de automa\347\343o dos testes}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.4}{Resultado da automa\347\343o dos testes}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 35
-\BOOKMARK [1][-]{section.5.1}{Conclus\343o do Trablho}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.2}{Trabalhos futuros}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.4.3.1}{Defini\347\343o dos objetivos dos testes}{section.4.3}% 34
+\BOOKMARK [2][-]{subsection.4.3.2}{Implementa\347\343o dos testes unit\341rios e integra\347\343o}{section.4.3}% 35
+\BOOKMARK [2][-]{subsection.4.3.3}{Implementando BDD com Cucumber}{section.4.3}% 36
+\BOOKMARK [1][-]{section.4.4}{Resultado da automa\347\343o dos testes}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Conclus\343o}{}% 38
+\BOOKMARK [1][-]{section.5.1}{Conclus\343o do Trablho}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.2}{Trabalhos futuros}{chapter.5}% 40

@@ -42,11 +42,11 @@ O processo de automação de testes para o sistema desenvolvido foi organizado c
 	\label{fig:result-engajamento}
 \end{figure}
 
-\subsubsection{Definição dos objetivos dos testes}
+\subsection{Definição dos objetivos dos testes}
 
 Inicialmente, foi conduzida uma análise das ferramentas que iriam compor a arquitetura do projeto jAudio e ACE, como elas iriam se integrar dentro da aplicação. Essa análise foi feita a partir de discussões com o desenvolvedor para entender como esses pacotes de softwares funcionavam e de como iriam ser usados. Essas conversas serviram muitas vezes como análise da própria arquitetura antes da implementação e do levantamento dos testes que iriam ser automatizado. Foi possível também identificar que os testes de unidade referente ao jAudio e ACE não fariam parte do escopo deste trabalho, por serem frameworks já testados e que o principal desafio para automação proposta seria então fazer testes automatizados que validassem a integração entres essas ferramentas e o sistema protótipo proposto. Logo os objetivos da automação dos testes dessa aplicação foram a integração das ferramentas(jAudio e ACE), o funcionamento delas separadamente, mas não a nível de testar os algoritmos utilizados por ambas e sim as repostas que essas geraram.
 
-\subsubsection{Implementação dos testes unitários e integração}
+\subsection{Implementação dos testes unitários e integração}
 
 Depois da analise feita para identificação dos objetivos da automação e implementação do sistema, foi desenvolvida duas classes: ACECommunicator e JAudioCommunicator. Estas por sua vez, são as responsáveis por executar as ferramentas ACE e jAudio dentro da aplicação. A seguir serão listados os tipos de automação de testes desenvolvidos para cobertura de níveis unitários e de integração. As classes responsáveis por este nível de testes automatizados encontrasse dentro do pacote Communicator que pertence ao pacote de testes do projeto.  
 
@@ -141,7 +141,7 @@ Este método utilizará um arquivo xml vindo de um áudio de buzina válido, que
 
 \end{itemize}
 
-\subsubsection{Implementando BDD com Cucumber}
+\subsection{Implementando BDD com Cucumber}
 
 O sistema inicial resultante do desenvolvimento do projeto que este trabalho automatizou os testes não possui interface ainda, mas a ideia protótipo desta interface para smartphone é que seja uma tela simples, com apenas um botão para inserir um áudio e um botão para realizar a classificação, como na ilustração a seguir:
 

@@ -64,17 +64,17 @@ Alguns dos considerados mais importantes tipos de validação não funcionais s�
 	\item Teste de Portabilidade
 \end{itemize}
 
-\subsection{Automação de testes}
+\section{Automação de testes}
 
-Ainda que a atividade seja complexa, o teste de software nem sempre é realizado de forma sistemática devido a diversos fatores dos projetos, como tempo e recursos limitados, qualificação do time e dos envolvidos e consequência da complexidade e da rapidez da evolução dos sistemas, sendo a automação de testes uma importante medida para melhorar a eficiência dessa atividade \cite{Fantinato2004}.
+Ainda que a atividade seja complexa, o teste de software nem sempre é realizado de forma sistemática devido a diversos fatores dos projetos, como: tempo e recursos limitados, qualificação do time e dos envolvidos, complexidade e da rapidez da evolução dos sistemas. Sendo assim, a automação de testes uma importante medida para melhorar a eficiência dessas atividades \cite{Fantinato2004}.
 
-“Automação de testes é uso de software para controlar a execução do teste de software, a comparação dos resultados esperados com os resultados reais, a configuração das pré-condições de teste e outras funções de controle e relatório de teste.” \cite{Hooda2012}. Atualmente essa prática vem sendo difundida em processos ágeis, como também em Extreme Programmaing (XP), e até mesmo em organizações que ainda utilizam metodologias tradicionais como Rational Unified Process \cite{Lima2012}.
+Automação de testes é uso de um software para controlar a execução das atividades de teste de um sistema, a comparação dos resultados esperados com os resultados reais, a configuração das pré-condições de teste e outras funções de controle e relatório de teste \cite{Hooda2012}. Atualmente essa prática vem sendo difundida em processos ágeis, como também em Extreme Programmaing (XP), e até mesmo em organizações que ainda utilizam metodologias tradicionais como Rational Unified Process \cite{Lima2012}.
 
-Segundo Fewster e Graham \cite{Fewster1999} afirmam que a automação de testes de software pode reduzir de maneira significativa e impactante o esforço necessário para execução dos testes. Assim como \cite{Molinari2010}, afirma que testes automatizados aumenta a produtividade e alcança em tempo menor os objetivos do teste. Apesar do grande poder que os testes automatizados apresentam, algumas empresas ainda resistem na aplicação da automação de testes, sobretudo, por conta do esforço necessário para iniciar o processo e por demandar mudança na cultura da organização \cite{Lima2012}. Mais rápido que os testes manuais e menos suscetível a erros, máquinas possuem probabilidade de erro bem menor. Aprimorar e aplicar testes automatizados tem se tornado algo crucial nas empresas atualmente, segundo pesquisa realizada em 2008 pelo Forrester Research Inc.
+Segundo Fewster e Graham \cite{Fewster1999} afirmam que a automação de testes de software pode reduzir de maneira significativa e impactante o esforço necessário para execução dos testes. Assim como Molinari\cite{Molinari2010}, afirma que testes automatizados aumenta a produtividade e alcança em tempo menor os objetivos do teste. Apesar do grande poder que os testes automatizados apresentam, algumas empresas ainda resistem na aplicação de estratégias de automação de testes, sobretudo, por conta do esforço necessário para iniciar o processo e por demandar mudança na cultura da organização \cite{Lima2012}. Mais rápido que os testes manuais e menos suscetível a erros, máquinas possuem probabilidade de erro bem menor. Aprimorar e aplicar testes automatizados tem se tornado algo crucial nas empresas atualmente, segundo pesquisa realizada em 2008 pelo Forrester Research Inc.
 
 A seguir serão citados e comentados algumas vantagens e dificuldades na implantação de testes automatizados.
 
-\subsubsection{Vantagens da automação de testes}
+\subsection{Vantagens da automação de testes}
 
 De acordo com Fewster e Graham \cite{Fewster1999}, os principais benefícios da automação de testes de software são:
 
@@ -88,9 +88,9 @@ De acordo com Fewster e Graham \cite{Fewster1999}, os principais benefícios da 
 	\item Aumentar a credibilidade e confiança na qualidade do sistema como um todo, um bom volume de testes automatizados bem planejados e executados com êxito podem trazer para o time um sentimento de confiança na qualidade do produto final.
 \end{itemize}
 
-Com base nessas vantagens é possível perceber o grande potencial da automação dos testes na melhoria das atividades de teste de software. Alguns desses benefícios podem ser evidenciados através da aplicação que será utilizada como caso de estudo desta proposta de automação de testes.
+Com base nessas vantagens é possível perceber o grande potencial da automação dos testes na melhoria das atividades que envolvem testes de software. Alguns desses benefícios podem ser evidenciados através da aplicação que será utilizada como caso de estudo desta proposta de trabalho.
 
-\subsubsection{Desafios da automação de testes}
+\subsection{Desafios da automação de testes}
 
 Em conformidade com Fewster e Graham \cite{Fewster1999} as principais barreiras e desafios na implantação da automação de testes de software em uma organização são:
 
@@ -105,7 +105,7 @@ problemas e não deve ser vista como tal, deve ser encarada de forma realista;
 
 Diante dessas dificuldades, a implantação de testes automatizados é uma atividade complexa. Deve, dessa forma, ser bem analisada sobre sua necessidade e como deve ser adaptada ao processo atual da organização e time.
 
-\subsubsection{Técnicas de automação de testes}
+\subsection{Técnicas de automação de testes}
 
 As principais técnicas de automação de automação de teste, presentes na literatura são: record and playback, scripts, data-driven e keyword-drivers. Essas técnicas serão expostas a seguir \cite{Fantinato2004}.
 
@@ -131,9 +131,9 @@ Consiste na extração, dos scripts de testes, os dados de entrada e armazená-l
 Técnica orientada a palavras chave, consistem na extração da lógica dos scripts de teste, que passam a ter apenas ações específicas de teste sobre a aplicação, que serão identificadas por palavras-chave. Essas ações  podem ser comparadas a funções de um programa que são acionadas por palavras chave, durante a execução do caso de teste. Os passos executados pelo script são armazenados em um arquivo separado, na forma de um conjunto de palavras-chave e parâmetros de teste no próprio código, obtendo-os diretamente dos arquivos de procedimento de teste.
 \end{itemize}
 
-Na implementação de automação dos testes desta proposta, foram levantados as possíveis técnicas demonstradas aqui para serem aplicadas. Por ser um protótipo desktop que usa frameworks externos, praticamente todos os testes desenvolvidos foram baseados na técnica de Programação de Scripts. Para isso, foi possível incorporar outros recursos como a verificação automática de resultados com o jUnit em casos de testes de unidade e integração, o Cucumber para alguns cenários demonstrativos aplicando BBD (Behaviour-Driven Development) e testes de aceitação. Essas ferramentas serão explicadas na próxima seção. Técnicas como Driven e Keyword Driven foram descartas para essa aplicação devido aos casos de testes desenvolvidos não possuírem uma grande quantidade de dados de entrada que justificasse a adoção dessas técnicas.
+Na implementação de automação dos testes desta proposta, foram levantados as possíveis técnicas demonstradas aqui para serem aplicadas. Por ser um protótipo desktop que usa frameworks externos, praticamente todos os testes desenvolvidos foram baseados na técnica de Programação de Scripts. Para isso, foi possível incorporar outros recursos como a verificação automática de resultados com o jUnit, em casos de testes de unidade e integração, o Cucumber para alguns cenários demonstrativos aplicando BBD (Behaviour-Driven Development) e testes de aceitação. Essas ferramentas serão explicadas na próxima seção. Técnicas como Driven e Keyword Driven foram descartas para essa aplicação devido aos casos de testes desenvolvidos não possuírem uma grande quantidade de dados de entrada que justificasse a adoção dessas técnicas.
 
-\subsubsection{Ferramentas utilizadas na automação dos testes}
+\subsection{Ferramentas utilizadas na automação dos testes}
 
 Existe há discursão, desde o surgimento da área de testes de software, sobre a utilização de ferramentas que facilitem o trabalho dos profissionais de teste, tarefas como o planejamento de casos de testes, execução de testes, abertura de defeitos entre outros \cite{Solis2011}. Objetivando dar suporte a estratégia  de automação de testes apresentada neste trabalho, serão apresentadas a seguir as ferramentas que foram utilizadas.
 
@@ -145,20 +145,19 @@ Framework open source (pacote de software livre) que facilita o desenvolvimento 
 	
 	\item Desenvolvimento orientado por comportamento (Behaviour Driven Development - BDD)
 	
-Concentrado na definição de especificações de granulação fina do comportamento direto do sistema, de forma que eles possam ser automatizado. BDD (Behaviour Driven Development) tem como principal objetivo a obtenção das especificações executáveis de um sistema \cite{Solis2011}.
-
-Os testes em BDD são escritos de forma clara e facilmente compreensível, fornecendo uma linguagem ubíqua específica que ajuda todos os envolvidos a captarem o contexto dos testes e participarem na escrita das especificações do sistema. Existem vários kits de ferramentas para o desenvolvimento e aplicação das técnicas de BDD, como JBehave \cite{JBehave}, Cucumber \cite{Cucumber} e RSpec \cite{RSpec}.
+Concentrado na definição de especificações de granulação fina do comportamento direto do sistema, de forma que eles possam ser automatizado. BDD (Behaviour Driven Development) tem como principal objetivo a obtenção das especificações executáveis de um sistema \cite{Solis2011}. Os testes em BDD são escritos de forma clara e facilmente compreensível, fornecendo uma linguagem ubíqua específica que ajuda todos os envolvidos a captarem o contexto dos testes e participarem na escrita das especificações do sistema. Existem vários kits de ferramentas para o desenvolvimento e aplicação das técnicas de BDD, como JBehave \cite{JBehave}, Cucumber \cite{Cucumber} e RSpec \cite{RSpec}.
 
 \end{itemize}
 
-\subsubsection{Características do BDD utilizadas neste trabalho}
+\subsection{Características do BDD utilizadas neste trabalho}
 
 Com base em toda gama de atividades que constitui o desenvolvimento de software, incluindo obtenção de requisitos, análise, projeto, testes e implementação. Segundo a revisão da literatura \cite{Solis2011} existem seis principais características fundamentais que constituem o BDD, mas para esta proposta de automação de testes e uso do framework Cucumber, serão explicados as características que foram usadas para implantação neste trabalho.
 
 \begin{itemize}
 
 	\item Descrição de texto simples com estória de usuário e modelos de cenários
-Utilizando textos simples para descrição de características,  estórias de usuários e cenários não possuem um formato aleatório. Um modelo pré-definido é usado para especificá-los. Esse modelo é definido através de uma linguagem simples ubíqua que BDD fornece. Normalmente estórias de usuário são especificados usando o modelo a seguir \cite{bddIntroducing}:
+	
+Utilizando textos simples para descrição de características,  estórias de usuários e cenários, não possuem um formato aleatório. Um modelo pré-definido é usado para especificá-los. Esse modelo é definido através de uma linguagem simples ubíqua que BDD fornece. Normalmente estórias de usuário são especificados usando o modelo a seguir \cite{bddIntroducing}:
 
 \begin{figure}[H]
 	\centering
@@ -178,9 +177,8 @@ Onde Y é o comportamento ou funcionalidade esperada, Z é o benefício ou valor
 	\label{fig:iceCreamConAntiPattern}
 \end{figure}
 	
-O título da estória descreve a atividade que é realizada por um usuário em um determinado papel. A funcionalidade desejada fornecida pelo usuário, específica a característica que o sistema deve possuir , com a implementação desta funcionalidade o usuário obtém um benefício.
+O título da estória descreve a atividade que é realizada por um usuário em um determinado papel. A funcionalidade desejada fornecida pelo usuário, específica a característica que o sistema deve possuir , com a implementação desta funcionalidade o usuário obtém um benefício. Utilizando este modelo fica clara a necessidade de implementação de tal característica e o seu impacto para o usuário. Os desenvolvedores sabem como o sistema deve se comportar e com quem devem falar sobre tal requisito. Além disso, os usuários entram em questionamento sobre a real necessidade de tal característica, uma vez que é perguntado qual ganho ele terá com essa implementação.
 
-Utilizando este modelo fica clara a necessidade de implementação de tal característica e o seu impacto para o usuário. Os desenvolvedores sabem como o sistema deve se comportar e com quem devem falar sobre tal requisito. Além disso, os usuários entram em questionamento sobre a real necessidade de tal característica, uma vez que é perguntado qual ganho ele terá com essa implementação.
 
 Um cenário descreve a forma como o sistema  deve se comportar quando está em um estado específico e um evento acontece, para que a funcionalidade ou característica requisitada esteja funcionando de acordo com o esperado.  O resultado do cenário altera o estado do sistema ou produz uma saída para o usuário. Nós usamos o termo ação em vez de saída do sistema \cite{Solis2011} porque, uma ação representa qualquer comportamento de reação do sistema.	
 
@@ -194,12 +192,12 @@ Um cenário descreve a forma como o sistema  deve se comportar quando está em u
 	
 	\item Automação de testes de aceitação com regras de mapeamento
 
-Testes de aceitação com BDD é uma especificação do comportamento do sistema. Especificação executável que verifica as interações (conduta) dos objetos em vezes de só avaliar seus estados \cite{bddIntroducing}. Um cenário é composto de várias etapas, a etapa é uma abstração que representa um dos elementos do cenário que são: contexto, eventos e ações. Um exemplo do significado deles pode ser: em um caso particular de uma estória do usuário ou contexto C, quando um evento X acontece, a resposta do sistema deve ser Z. Cada passo desse é mapeado para um método de teste da aplicação. Para que um cenário passe (seja validado), é necessário que todas as suas etapas também passem, estas etapas são normalmente chamadas de "steps". A principal ideia no uso do BDD é o foco em prevenir falhas de comunicação, o que significa que todos no time estão se comunicando de maneira mais frequente, eficaz e com base em exemplos reais, não se baseando em abstrações ou em requisitos imperativos. 
+Testes de aceitação com BDD é uma especificação do comportamento do sistema, especificação executável que verifica as interações (conduta) dos objetos em vezes de só avaliar seus estados \cite{bddIntroducing}. Um cenário é composto de várias etapas, a etapa é uma abstração que representa um dos elementos do cenário que são: contexto, eventos e ações. Um exemplo do significado deles pode ser: em um caso particular de uma estória do usuário ou contexto C, quando um evento X acontece, a resposta do sistema deve ser Z. Cada passo desse é mapeado para um método de teste da aplicação. Para que um cenário passe (seja validado), é necessário que todas as suas etapas também passem, estas etapas são normalmente chamadas de "steps". A principal ideia no uso do BDD é o foco em prevenir falhas de comunicação, o que significa que todos no time estão se comunicando de maneira mais frequente, eficaz e com base em exemplos reais, não se baseando em abstrações ou em requisitos imperativos. 
 
 Para a implementação da automação dos testes deste trabalho, foram escritos alguns cenários para demonstrar como pode ser utilizado na prática de desenvolvimento e testes com BDD (Behaviour Driven Development) usando a ferramenta Cucumber, que será explicado na próxima sessão.
 \end{itemize}
 
-\subsubsection{Cucumber}
+\subsection{Cucumber}
 
 Existem diversas ferramentas que possibilita a aplicação do BDD, mas para este trabalho vamos nos ater a uma delas, o Cucumber. Na utilização do Cucumber, as funcionalidades do sistema são escritas em arquivos de texto e em uma linguagem de domínio específico chamada Gherkin \cite{gherkin}, muito parecida com a linguagem natural, mas que contém algumas palavras chaves \cite{Cucumber}.  Para entender a estrutura básica que o Cucumber define para as estórias do usuário, a seguir são listados alguns conceitos.
 
@@ -211,14 +209,14 @@ Existem diversas ferramentas que possibilita a aplicação do BDD, mas para este
 	\item Cada história ou cenário é composto por uma descrição ou título, uma ou mais pré-condições, uma ou mais ações e uma ou mais verificações.
 \end{itemize}
 
-Essa é a estrutura básica de um arquivo ".fature" do Cucumber, esta definição pode ser genérica e gerar dúvidas, então para maior entendimento vamos especificar melhor como é essa estrutura e seu funcionamento. Os testes utilizando BDD são compostos, basicamente, por arquivos que especificam as funcionalidades ".feature" e por arquivos de definição de passos "steps". Os arquivos com as funcionalidades são compostos por cenários, que exemplificam uma ou mais regras de negócio de como o sistema deve se comportar.
+Essa é a estrutura básica de um arquivo ".fature" do Cucumber, esta definição pode ser genérica e gerar dúvidas, então para maior entendimento vamos especificar melhor como é essa estrutura e seu funcionamento. Os testes utilizando BDD são compostos, basicamente, por arquivos que especificam as funcionalidades ".feature" como mencionado e por arquivos de definição de passos "steps". Os arquivos com as funcionalidades são compostos por cenários, que exemplificam uma ou mais regras de negócio de como o sistema deve se comportar.
 
 \begin{figure}[H]
 	\centering
 	\captionsetup{justification=centering,margin=2cm}
 	\includegraphics[scale=0.35]{capitulos/literatura/exemoloCenario.eps}
-	\caption{Ilustração de um cenário no arquivo .feature"}
+	\caption{Ilustração de um cenário no arquivo .feature}
 	\label{fig:iceCreamConAntiPattern}
 \end{figure}	
 
-Afim de aplicar alguns cenários na automação dos testes aplicados neste trabalho, foi utilizado o Cucucmber-JVM [33] que da suporte a implementação do Cucumber na linguagem de programação Java.
+Afim de aplicar alguns cenários na automação dos testes desenvolvidos neste trabalho, foi utilizado o Cucucmber-JVM [33] que da suporte a implementação do Cucumber na linguagem de programação Java.
